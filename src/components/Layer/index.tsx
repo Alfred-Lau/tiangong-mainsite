@@ -1,4 +1,3 @@
-import classnames from 'classnames';
 import styles from './index.less';
 
 export interface LayerProps {
@@ -11,8 +10,8 @@ function Layer(props: LayerProps) {
   return (
     <div className={styles.layer}>
       <div className={styles.title}>
-        <span className={styles.main}>{title}</span>
-        <span className={styles.sub}>{subtitle}</span>
+        <div className={styles.main}>{title}</div>
+        <div className={styles.sub}>{subtitle}</div>
       </div>
       <div className={styles.content}>{children}</div>
     </div>

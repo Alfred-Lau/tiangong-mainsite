@@ -7,5 +7,6 @@ export default defineConfig({
   },
   routes,
   fastRefresh: {},
-  favicon: 'favicon.ico',
+  favicon: 'https://lazy-minus-your-intelligence.com/favicon.ico',
+  title: '天工工程体系主站',
 });
