@@ -1,2 +1,15 @@
-# tiangong-mainsite
-天工 工程化体系主站
+# umi project
+
+## Getting Started
+
+Install dependencies,
+
+```bash
+$ yarn
+```
+
+Start the dev server,
+
+```bash
+$ yarn start
+```

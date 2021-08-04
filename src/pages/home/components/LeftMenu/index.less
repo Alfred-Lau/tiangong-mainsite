@@ -1,0 +1,30 @@
+.leftMenu {
+  width: 360px;
+  text-align: center;
+  position: relative;
+  .category {
+    margin: 0 20px;
+    text-align: left;
+    .categoryItem {
+      height: 40px;
+      line-height: 40px;
+      border-bottom: 1px solid #f3f3f3;
+      :global {
+        .ant-anchor:nth-child(2) {
+          display: none;
+        }
+        .ant-anchor-link {
+          display: inline-block;
+          height: 40px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+}
