@@ -2,6 +2,8 @@ import styles from './index.less';
 import Layer from '@/components/layer';
 import FlipCard from '@/components/flipcard';
 import ReflectCard from '@/components/ReflectCard';
+import TimeLine from '@/components/TimeLine';
+import List from '@/components/List';
 
 function AboutMeComponent() {
   return (
@@ -228,6 +230,22 @@ function EngineeredToolComponent() {
   );
 }
 
+function ExperenceComponent() {
+  return (
+    <div>
+      <TimeLine timelines={[]} />
+    </div>
+  );
+}
+
+function BlogComponent() {
+  return (
+    <div>
+      <List data={[]} />
+    </div>
+  );
+}
+
 const CONTENT_ARRAY = [
   {
     sort: 1,
@@ -251,13 +269,13 @@ const CONTENT_ARRAY = [
     sort: 4,
     title: 'EXPERIENCE',
     subtitle: 'MY EXPERIENCE',
-    component: AboutMeComponent,
+    component: ExperenceComponent,
   },
   {
     sort: 5,
     title: 'BLOG',
     subtitle: 'LATEST BLOG',
-    component: AboutMeComponent,
+    component: BlogComponent,
   },
 ];
 
