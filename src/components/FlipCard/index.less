@@ -1,0 +1,44 @@
+.flip_card_container {
+  width: 320px;
+  overflow: hidden;
+  margin-right: 20px;
+  background: #fff;
+  .center {
+    .cover {
+      overflow: hidden;
+      .coverImg {
+        width: 100%;
+        height: 360px;
+        transition: all 0.5s ease;
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+
+    .content {
+      padding: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      &:hover {
+        cursor: pointer;
+      }
+      .title {
+      }
+
+      .desc {
+      }
+
+      .tags {
+        .tag {
+          display: inline-block;
+          background-color: #aaa;
+        }
+
+        .tag + .tag {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

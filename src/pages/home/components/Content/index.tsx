@@ -1,5 +1,7 @@
 import styles from './index.less';
 import Layer from '@/components/layer';
+import FlipCard from '@/components/flipcard';
+import ReflectCard from '@/components/ReflectCard';
 
 function AboutMeComponent() {
   return (
@@ -60,6 +62,172 @@ function AboutMeComponent() {
   );
 }
 
+function PieceWorkComponent() {
+  const cards = [
+    {
+      id: 0,
+      title: '商城应用',
+      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
+      tags: ['vue', 'business'],
+      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+    },
+    {
+      id: 1,
+      title: '商城应用',
+      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
+      tags: ['vue', 'business'],
+      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+    },
+    {
+      id: 2,
+      title: '商城应用',
+      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
+      tags: ['vue', 'business'],
+      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+    },
+    {
+      id: 3,
+      title: '商城应用',
+      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
+      tags: ['vue', 'business'],
+      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+    },
+    {
+      id: 4,
+      title: '商城应用',
+      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
+      tags: ['vue', 'business'],
+      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+    },
+    {
+      id: 5,
+      title: '商城应用',
+      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
+      tags: ['vue', 'business'],
+      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+    },
+    {
+      id: 6,
+      title: '商城应用',
+      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
+      tags: ['vue', 'business'],
+      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+    },
+  ];
+  return (
+    <div className={styles.piecework}>
+      {cards.map((card) => {
+        return (
+          <FlipCard
+            title={card.title}
+            desc={card.desc}
+            tags={card.tags}
+            link={card.link}
+            cover={card.cover}
+          />
+        );
+      })}
+    </div>
+  );
+}
+
+function EngineeredToolComponent() {
+  const cards = [
+    {
+      id: 0,
+      title: '商城应用',
+      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
+      tags: ['vue', 'business'],
+      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+    },
+    {
+      id: 1,
+      title: '商城应用',
+      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
+      tags: ['vue', 'business'],
+      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+    },
+    {
+      id: 2,
+      title: '商城应用',
+      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
+      tags: ['vue', 'business'],
+      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+    },
+    {
+      id: 3,
+      title: '商城应用',
+      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
+      tags: ['vue', 'business'],
+      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+    },
+    {
+      id: 4,
+      title: '商城应用',
+      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
+      tags: ['vue', 'business'],
+      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+    },
+    {
+      id: 5,
+      title: '商城应用',
+      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
+      tags: ['vue', 'business'],
+      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+    },
+    {
+      id: 6,
+      title: '商城应用',
+      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
+      tags: ['vue', 'business'],
+      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+    },
+  ];
+  return (
+    <div className={styles.engineeredtool}>
+      {cards.map((card) => {
+        return (
+          <ReflectCard
+            title={card.title}
+            desc={card.desc}
+            tags={card.tags}
+            link={card.link}
+            cover={card.cover}
+          />
+        );
+      })}
+    </div>
+  );
+}
+
 const CONTENT_ARRAY = [
   {
     sort: 1,
@@ -71,13 +239,13 @@ const CONTENT_ARRAY = [
     sort: 2,
     title: 'PIECEWORK',
     subtitle: 'SPARE TIME PROJECT',
-    component: AboutMeComponent,
+    component: PieceWorkComponent,
   },
   {
     sort: 3,
     title: 'TOOL',
     subtitle: 'ENGINEERED TOOL',
-    component: AboutMeComponent,
+    component: EngineeredToolComponent,
   },
   {
     sort: 4,
