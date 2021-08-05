@@ -12,14 +12,49 @@ function AboutMeComponent() {
         />
       </div>
       <div className={styles.right}>
-        <div className="slogan">ABOUT ME</div>
-        千帐， 鄙人千帐，生于塞上，游学于迤逦之乡，定居于人间天堂~
-        『自强不息，止于至善』『红专并进，理实交融』这些朴实凝萃的校训流淌我身，四年本科生涯、三年研究生涯，良师益友收获颇多~
-        前有软工查软件系统之宏著、后学信安观程序于微，科班出身，愿工程改变世界，更喜洞悉真知~
-        工作两载，扎根杭城，累哉累哉，自知其中快乐~
-        旧版个人网站:old.lazy-minus-your-intelligence.com/
-        专栏:juejin.im/user/57fd0345816dfa0056cf086d
-        项目:https://github.com/Alfred-Lau 公众号:十年挑灯看剑
+        <div className={styles.slogan}>ABOUT ME</div>
+        <div className={styles.short}>
+          千帐， 鄙人千帐，生于塞上，游学于迤逦之乡，定居于人间天堂~
+        </div>
+        <div className={styles.long}>
+          『自强不息，止于至善』『红专并进，理实交融』这些朴实凝萃的校训流淌我身，四年本科生涯、三年研究生涯，良师益友收获颇多~
+          前有软工查软件系统之宏著、后学信安观程序于微，科班出身，愿工程改变世界，更喜洞悉真知~
+          工作两载，扎根杭城，累哉累哉，自知其中快乐~
+        </div>
+        <div className={styles.section}>
+          <ul className={styles.items}>
+            <li className={styles.item}>
+              <span className={styles.label}>旧版个人网站:</span>
+              <a
+                href="https://old.lazy-minus-your-intelligence.com/"
+                className={styles.href}
+              >
+                old.lazy-minus-your-intelligence.com/
+              </a>
+            </li>
+            <li className={styles.item}>
+              <span className={styles.label}>专栏:</span>
+              <a
+                href="https://juejin.im/user/57fd0345816dfa0056cf086d"
+                className={styles.href}
+              >
+                juejin.im/user/57fd0345816dfa0056cf086d
+              </a>
+            </li>
+            <li className={styles.item}>
+              <span className={styles.label}>项目:</span>
+              <a href="https://github.com/Alfred-Lau" className={styles.href}>
+                https://github.com/Alfred-Lau
+              </a>
+            </li>
+            <li className={styles.item}>
+              <span className={styles.label}>公众号:</span>
+              <a href="" className={styles.href}>
+                十年挑灯看剑
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

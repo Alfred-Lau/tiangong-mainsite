@@ -3,6 +3,7 @@ import styles from './index.less';
 export interface LayerProps {
   title: string;
   subtitle: string;
+  children: React.ReactNode;
 }
 
 function Layer(props: LayerProps) {

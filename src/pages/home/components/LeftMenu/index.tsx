@@ -12,8 +12,9 @@ const { Link } = Anchor;
 function LeftMenu() {
   return (
     <div className={styles.leftMenu}>
-      <Avatar size="small"></Avatar>
       <Anchor className={styles.category}>
+        <Avatar size="small"></Avatar>
+
         <div className={styles.categoryItem}>
           <HomeOutlined />
           <Link href="#home" title="首页" />
