@@ -7,6 +7,7 @@ export default defineConfig({
   },
   routes,
   fastRefresh: {},
-  favicon: 'https://lazy-minus-your-intelligence.com/favicon.ico',
+  favicon:
+    'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/favicon.ico',
   title: '天工工程体系主站',
 });
