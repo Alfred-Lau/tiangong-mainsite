@@ -1,15 +1,3 @@
-# umi project
+# 天工工程化主站
 
-## Getting Started
-
-Install dependencies,
-
-```bash
-$ yarn
-```
-
-Start the dev server,
-
-```bash
-$ yarn start
-```
+[![CI](https://github.com/Alfred-Lau/tiangong-mainsite/actions/workflows/aes.yml/badge.svg?branch=main)](https://github.com/Alfred-Lau/tiangong-mainsite/actions/workflows/aes.yml)
