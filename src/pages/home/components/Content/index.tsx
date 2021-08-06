@@ -1,8 +1,8 @@
 import styles from './index.less';
-import Layer from '@/components/layer';
-import FlipCard from '@/components/flipcard';
+import Layer from '@/components/Layer';
+import FlipCard from '@/components/FlipCard';
 import ReflectCard from '@/components/ReflectCard';
-import TimeLine from '@/components/TimeLine';
+import TimeLine from '@/components/Timeline';
 // import type { Timeline } from '@/components/TimeLine';
 import List from '@/components/List';
 
