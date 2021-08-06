@@ -17,7 +17,11 @@ function Avatar(props: AvatarProps) {
           size === 'large' ? styles.large : styles.small
         }`}
       />
-      <h4 className={styles.avatarTitle}>挑灯看剑</h4>
+      {size === 'large' ? (
+        <h4 className={styles.largeTitle}>挑灯看剑</h4>
+      ) : (
+        <h4 className={styles.avatarTitle}>挑灯看剑</h4>
+      )}
     </div>
   );
 }

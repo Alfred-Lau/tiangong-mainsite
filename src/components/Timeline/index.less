@@ -1,11 +1,48 @@
 .timelineContainer {
-  .timeline {
-    background: #fff;
-    border-radius: 0;
-    padding-top: 20px;
+  .timelineWrapper {
+    border-left: 1px solid #aaa;
+    padding-left: 10px;
     padding-bottom: 20px;
-    text-align: left;
-    padding-left: 20px;
-    margin-bottom: 20px;
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      left: -4px;
+      width: 6px;
+      height: 6px;
+      background: #f00;
+      border-radius: 3px;
+    }
+    .timeline {
+      background: #fff;
+      border-radius: 0;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: left;
+      .titleWrapper {
+        padding-left: 20px;
+
+        border-bottom: 1px solid #e8e8e8;
+
+        .title {
+          font-size: 16px;
+          font-weight: 500;
+        }
+
+        .duration {
+          font-size: 12px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+      }
+
+      .content {
+        color: rgba(0, 0, 0, 0.65);
+        font-size: 14px;
+        font-variant: tabular-nums;
+        line-height: 1.5;
+        padding: 20px;
+      }
+    }
   }
 }

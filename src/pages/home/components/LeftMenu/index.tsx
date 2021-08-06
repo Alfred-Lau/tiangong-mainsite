@@ -10,6 +10,7 @@ import Avatar from '@/components/Avatar';
 const { Link } = Anchor;
 
 function LeftMenu() {
+  const RenderedTarget = [{}];
   return (
     <div className={styles.leftMenu}>
       <Anchor className={styles.category}>
@@ -25,7 +26,7 @@ function LeftMenu() {
         </div>
         <div className={styles.categoryItem}>
           <FundProjectionScreenOutlined />
-          <Link href="#porjects" title="项目" />
+          <Link href="#projects" title="项目" />
         </div>
         <div className={styles.categoryItem}>
           <FundProjectionScreenOutlined />

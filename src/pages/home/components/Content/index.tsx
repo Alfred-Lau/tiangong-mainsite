@@ -3,6 +3,7 @@ import Layer from '@/components/layer';
 import FlipCard from '@/components/flipcard';
 import ReflectCard from '@/components/ReflectCard';
 import TimeLine from '@/components/TimeLine';
+// import type { Timeline } from '@/components/TimeLine';
 import List from '@/components/List';
 
 function AboutMeComponent() {
@@ -28,7 +29,7 @@ function AboutMeComponent() {
         <div className={styles.section}>
           <ul className={styles.items}>
             <li className={styles.item}>
-              <span className={styles.label}>旧版个人网站:</span>
+              <span className={styles.label}>旧版:</span>
               <a
                 href="https://old.lazy-minus-your-intelligence.com/"
                 className={styles.href}
@@ -323,30 +324,35 @@ const CONTENT_ARRAY = [
     title: 'INFORMATION',
     subtitle: 'ABOUT ME',
     component: AboutMeComponent,
+    anchor: 'about',
   },
   {
     sort: 2,
     title: 'PIECEWORK',
     subtitle: 'SPARE TIME PROJECT',
     component: PieceWorkComponent,
+    anchor: 'projects',
   },
   {
     sort: 3,
     title: 'TOOL',
     subtitle: 'ENGINEERED TOOL',
     component: EngineeredToolComponent,
+    anchor: 'tools',
   },
   {
     sort: 4,
     title: 'EXPERIENCE',
     subtitle: 'MY EXPERIENCE',
     component: ExperenceComponent,
+    anchor: 'experience',
   },
   {
     sort: 5,
     title: 'BLOG',
     subtitle: 'LATEST BLOG',
     component: BlogComponent,
+    anchor: 'rethink',
   },
 ];
 
@@ -359,6 +365,7 @@ function Content() {
             title={content.title}
             subtitle={content.subtitle}
             key={content.sort}
+            anchor={content.anchor}
           >
             <content.component></content.component>
           </Layer>
