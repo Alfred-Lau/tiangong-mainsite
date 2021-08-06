@@ -19,17 +19,16 @@ export interface ItemProps {
 }
 
 function Item({ item }) {
-  const { title, description, link, author, created_at } = item;
+  const { title, description, author, created_at } = item;
 
   const openLink = React.useCallback((item) => {
     const { id, link } = item;
-    if (id) {
+    if (id !== null) {
       history.push(`/rethink/${id}`);
-      return;
-    }
-    if (!id && link) {
+    } else if (!id && link) {
       window.open(link);
-      return;
+    } else {
+      console.error('not exist');
     }
   }, []);
   return (
