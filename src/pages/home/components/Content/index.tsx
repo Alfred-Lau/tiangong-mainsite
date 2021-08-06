@@ -231,9 +231,51 @@ function EngineeredToolComponent() {
 }
 
 function ExperenceComponent() {
+  const timelines = [
+    {
+      id: 0,
+      title: '厦门大学',
+      duration: '2009-09 至 2013-09',
+      content: '自强不息，止于至善',
+      tag: '',
+    },
+    {
+      id: 1,
+      title: '中科大',
+      duration: '2014-09 至 2017-09',
+      content: '自强不息，止于至善',
+      tag: '',
+    },
+    {
+      id: 2,
+      title: '政采云有限公司',
+      duration: '2018-02 至 2020-07',
+      content: `业务上从事支付和项目采购，商品协议相关开发工作
+      技术建设进行影响力建设和工程化相关的产出，主要包括:
+      前端对外小报全链路【包括前后端，运维部署，React SSR，定时任务，命令行数据提取工具等】
+      移动端脚手架【落地于移动端开发】
+      命令行脚手架【落地于小组内使用】
+      以及基于其上的 GUI 工具【后续交由他人维护】`,
+      tag: '',
+    },
+    {
+      id: 3,
+      title: '蚂蚁集团 - 体验技术部',
+      duration: '2020-07 至 2020-11',
+      content: '自强不息，止于至善',
+      tag: '',
+    },
+    {
+      id: 4,
+      title: '蚂蚁集团 - OceanBase',
+      duration: '2020-11 至今',
+      content: '负责大官网团队 & 服务交付',
+      tag: '',
+    },
+  ];
   return (
     <div>
-      <TimeLine timelines={[]} />
+      <TimeLine timelines={timelines} />
     </div>
   );
 }
