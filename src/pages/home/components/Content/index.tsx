@@ -285,6 +285,7 @@ function BlogComponent() {
   const data = [
     {
       key: 0,
+      id: 0,
       title: 'Node.js 模块系统源码探微',
       link: 'https://juejin.im/post/5dec60e8f265da33d645a631',
       author: '千帐',
@@ -294,6 +295,7 @@ function BlogComponent() {
     },
     {
       key: 1,
+      id: 1,
       title: 'Node.js 模块系统源码探微',
       link: 'https://juejin.im/post/5dec60e8f265da33d645a631',
       author: '千帐',
@@ -303,6 +305,7 @@ function BlogComponent() {
     },
     {
       key: 2,
+      id: 2,
       title: 'Node.js 模块系统源码探微',
       link: 'https://juejin.im/post/5dec60e8f265da33d645a631',
       author: '千帐',
