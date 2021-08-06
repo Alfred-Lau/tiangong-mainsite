@@ -1,4 +1,6 @@
 import styles from './index.less';
+import React from 'react';
+import { BookOutlined } from '@ant-design/icons';
 
 export interface ListProps {
   data: ItemProps[];
@@ -15,8 +17,30 @@ export interface ItemProps {
 }
 
 function Item({ item }) {
-  const { title } = item;
-  return <div>{title}</div>;
+  const { title, description, link, author, created_at } = item;
+
+  const openLink = React.useCallback(
+    (link: string) => {
+      if (link) {
+        window.open(link);
+      }
+    },
+    [link],
+  );
+  return (
+    <div className={styles.item} onClick={() => openLink(item.link)}>
+      <div className={styles.titleWrapper}>
+        <BookOutlined className={styles.icon} />
+        <h4 className={styles.title}>{title}</h4>
+      </div>
+
+      <p className={styles.info}>
+        <a className={styles.author}>{author}</a>
+        <span className={styles.created_at}>{created_at}</span>
+      </p>
+      <p className={styles.description}>{description}</p>
+    </div>
+  );
 }
 
 function List(props: ListProps) {
@@ -26,6 +50,7 @@ function List(props: ListProps) {
       {data.map((item, index) => {
         return <Item item={item} key={index} />;
       })}
+      {showMore && <div className={styles.more}>更多</div>}
     </div>
   );
 }

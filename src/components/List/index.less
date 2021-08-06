@@ -1,5 +1,55 @@
 .list {
   border-radius: 50%;
   padding-top: 20px;
-  text-align: center;
+  text-align: left;
+  .item {
+    margin-bottom: 12px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 16px;
+    line-height: 24px;
+
+    .titleWrapper {
+      .icon {
+        background: #f17c67fc;
+        font-size: 18px;
+        outline: none;
+        padding: 6px;
+        border-radius: 50%;
+      }
+      .title {
+        display: inline-block;
+        padding-left: 15px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .info {
+      font-size: 14px;
+      line-height: 22px;
+      .author {
+        text-decoration: none;
+      }
+
+      .created_at {
+        color: #888888;
+        padding-left: 10px;
+      }
+    }
+
+    .description {
+      color: #888888;
+      padding-left: 0em;
+      display: inline-block;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  }
+
+  .more {
+    text-align: center;
+    color: #1890ff;
+    cursor: pointer;
+  }
 }
