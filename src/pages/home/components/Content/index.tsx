@@ -6,6 +6,7 @@ import ReflectCard from '@/components/ReflectCard';
 import TimeLine from '@/components/Timeline';
 // import type { Timeline } from '@/components/TimeLine';
 import List from '@/components/List';
+import useAsyncEffect from '@/hooks/useAsyncEffect';
 import { queryWorks } from '@/services/Works';
 
 function AboutMeComponent() {
@@ -70,78 +71,16 @@ function AboutMeComponent() {
 function PieceWorkComponent() {
   const [works, setWorks] = React.useState<MainSiteApi.WorkPiece[]>([]);
 
-  React.useEffect(() => {
-    // const works = queryWorks();
-    // works.forEach((item)=>item.)
+  useAsyncEffect(async () => {
+    const works = await queryWorks();
+    console.log('works', works);
+
+    setWorks(works);
   }, []);
-  const cards = [
-    {
-      id: 0,
-      title: '商城应用',
-      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
-      tags: ['vue', 'business'],
-      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
-      cover:
-        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
-    },
-    {
-      id: 1,
-      title: '商城应用',
-      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
-      tags: ['vue', 'business'],
-      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
-      cover:
-        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
-    },
-    {
-      id: 2,
-      title: '商城应用',
-      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
-      tags: ['vue', 'business'],
-      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
-      cover:
-        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
-    },
-    {
-      id: 3,
-      title: '商城应用',
-      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
-      tags: ['vue', 'business'],
-      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
-      cover:
-        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
-    },
-    {
-      id: 4,
-      title: '商城应用',
-      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
-      tags: ['vue', 'business'],
-      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
-      cover:
-        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
-    },
-    {
-      id: 5,
-      title: '商城应用',
-      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
-      tags: ['vue', 'business'],
-      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
-      cover:
-        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
-    },
-    {
-      id: 6,
-      title: '商城应用',
-      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
-      tags: ['vue', 'business'],
-      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
-      cover:
-        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
-    },
-  ];
+
   return (
     <div className={styles.piecework}>
-      {cards.map((card) => {
+      {works.map((card) => {
         return (
           <FlipCard
             title={card.title}

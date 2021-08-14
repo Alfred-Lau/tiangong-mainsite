@@ -1,4 +1,4 @@
-import { request } from 'umi';
+import request from '@/utils/request';
 
 /**
  * 查看主站的个人项目列表
