@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './index.less';
 import Layer from '@/components/Layer';
 import FlipCard from '@/components/FlipCard';
@@ -5,6 +6,7 @@ import ReflectCard from '@/components/ReflectCard';
 import TimeLine from '@/components/Timeline';
 // import type { Timeline } from '@/components/TimeLine';
 import List from '@/components/List';
+import { queryWorks } from '@/services/Works';
 
 function AboutMeComponent() {
   return (
@@ -66,6 +68,12 @@ function AboutMeComponent() {
 }
 
 function PieceWorkComponent() {
+  const [works, setWorks] = React.useState<MainSiteApi.WorkPiece[]>([]);
+
+  React.useEffect(() => {
+    // const works = queryWorks();
+    // works.forEach((item)=>item.)
+  }, []);
   const cards = [
     {
       id: 0,
