@@ -1,4 +1,6 @@
 import React from 'react';
+import MediaQuery from 'react-responsive';
+import { MIN_WIDTH } from '@/constants/varibles';
 import styles from './index.less';
 import Layer from '@/components/Layer';
 import FlipCard from '@/components/FlipCard';
