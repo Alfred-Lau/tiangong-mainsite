@@ -18,9 +18,9 @@ function Avatar(props: AvatarProps) {
         }`}
       />
       {size === 'large' ? (
-        <h4 className={styles.largeTitle}>挑灯看剑</h4>
+        <h4 className={styles.largeTitle}>工程化悟道</h4>
       ) : (
-        <h4 className={styles.avatarTitle}>挑灯看剑</h4>
+        <h4 className={styles.avatarTitle}>工程化悟道</h4>
       )}
     </div>
   );

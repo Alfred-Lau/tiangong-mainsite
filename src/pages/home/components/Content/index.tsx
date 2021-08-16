@@ -60,7 +60,7 @@ function AboutMeComponent() {
             <li className={styles.item}>
               <span className={styles.label}>公众号:</span>
               <a href="" className={styles.href}>
-                十年挑灯看剑
+                工程化悟道
               </a>
             </li>
           </ul>
