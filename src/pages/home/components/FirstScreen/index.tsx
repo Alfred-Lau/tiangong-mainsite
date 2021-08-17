@@ -41,9 +41,11 @@ const FirstScreen = () => {
   return (
     <div className={styles.firstScreen} id="home">
       <div className={styles.center}>
-        <Avatar size="large" />
+        <Avatar size="large">
+          <div className={styles.hello}>{name}</div>
+        </Avatar>
       </div>
-      <div className={styles.hello}>{name}</div>
+
       <div className={styles.arrow} data-aos="fade-up">
         <DoubleRightOutlined />
       </div>

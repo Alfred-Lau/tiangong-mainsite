@@ -1,3 +1,4 @@
+@import '../../themes/varibles.less';
 .avatar {
   border-radius: 50%;
   padding-top: 20px;
@@ -18,6 +19,12 @@
     color: #888888;
   }
 
+  .hello {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+  }
+
   .largeTitle {
     height: 64px;
     padding: 0 50px;
@@ -31,5 +38,27 @@
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  @media (max-width: @min-width - 1) {
+    .largeTitle {
+      padding: 20px;
+      line-height: 32px;
+      font-size: 24px;
+      font-weight: 500;
+      color: #fafafa;
+      text-shadow: 0 0 5px rgb(0 0 0 / 50%);
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
+        Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+        '微软雅黑', Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .hello {
+      text-align: center;
+      color: #fff;
+      font-size: 16px;
+      overflow: hidden;
+    }
   }
 }

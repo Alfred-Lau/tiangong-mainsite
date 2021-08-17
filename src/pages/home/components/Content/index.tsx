@@ -60,7 +60,7 @@ function AboutMeComponent() {
             <li className={styles.item}>
               <span className={styles.label}>公众号:</span>
               <a href="" className={styles.href}>
-                工程化悟道
+                且行且悟应有语
               </a>
             </li>
           </ul>
