@@ -10,6 +10,7 @@ import TimeLine from '@/components/Timeline';
 import List from '@/components/List';
 import useAsyncEffect from '@/hooks/useAsyncEffect';
 import { queryWorks } from '@/services/Works';
+import { queryBlogs } from '@/services/Blog';
 
 function AboutMeComponent() {
   return (
@@ -231,41 +232,16 @@ function ExperenceComponent() {
 }
 
 function BlogComponent() {
-  const data = [
-    {
-      key: 0,
-      id: 0,
-      title: 'Node.js 模块系统源码探微',
-      link: 'https://juejin.im/post/5dec60e8f265da33d645a631',
-      author: '千帐',
-      created_at: '2019年12月09日',
-      description:
-        'Node.js 的出现使得前端工程师可以跨端工作在服务器上，当然，一个新的运行环境的诞生亦会带来新的模块、功能、抑或是思想上的革新，本文将带领读者领略 Node.js (以下简称 Node) 的模块设计思想以及剖析部分核心源码实现。 ...',
-    },
-    {
-      key: 1,
-      id: 1,
-      title: 'Node.js 模块系统源码探微',
-      link: 'https://juejin.im/post/5dec60e8f265da33d645a631',
-      author: '千帐',
-      created_at: '2019年12月09日',
-      description:
-        'Node.js 的出现使得前端工程师可以跨端工作在服务器上，当然，一个新的运行环境的诞生亦会带来新的模块、功能、抑或是思想上的革新，本文将带领读者领略 Node.js (以下简称 Node) 的模块设计思想以及剖析部分核心源码实现。 ...',
-    },
-    {
-      key: 2,
-      id: 2,
-      title: 'Node.js 模块系统源码探微',
-      link: 'https://juejin.im/post/5dec60e8f265da33d645a631',
-      author: '千帐',
-      created_at: '2019年12月09日',
-      description:
-        'Node.js 的出现使得前端工程师可以跨端工作在服务器上，当然，一个新的运行环境的诞生亦会带来新的模块、功能、抑或是思想上的革新，本文将带领读者领略 Node.js (以下简称 Node) 的模块设计思想以及剖析部分核心源码实现。 ...',
-    },
-  ];
+  const [blogs, setBlogs] = React.useState<MainSiteApi.Blog[]>([]);
+
+  useAsyncEffect(async () => {
+    const blogs = await queryBlogs();
+
+    setBlogs(blogs);
+  }, []);
   return (
     <div>
-      <List data={data} showMore />
+      <List data={blogs} showMore />
     </div>
   );
 }

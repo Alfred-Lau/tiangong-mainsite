@@ -7,4 +7,14 @@ declare namespace MainSiteApi {
     link: string;
     cover: string;
   }
+
+  interface Blog {
+    key: number;
+    id: number;
+    title: string;
+    description: string;
+    link: string;
+    created_at: string;
+    author: string;
+  }
 }

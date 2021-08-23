@@ -8,15 +8,7 @@ export interface ListProps {
   showMore?: boolean;
 }
 
-export interface ItemProps {
-  key: number;
-  id: number;
-  title: string;
-  description: string;
-  link: string;
-  created_at: string;
-  author: string;
-}
+export type ItemProps = Partial<MainSiteApi.Blog>;
 
 function Item({ item }) {
   const { title, description, author, created_at } = item;
