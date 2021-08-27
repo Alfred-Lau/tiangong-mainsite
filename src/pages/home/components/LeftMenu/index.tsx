@@ -42,6 +42,14 @@ function LeftMenu() {
             <FundProjectionScreenOutlined />
             <Link href="#rethink" title="自悟" />
           </div>
+          <div className={styles.categoryItem}>
+            <FundProjectionScreenOutlined />
+            <Link
+              href="http://docs.lazy-minus-your-intelligence.com"
+              title="天工"
+              target="_blank"
+            />
+          </div>
         </Anchor>
         <div className={styles.footer}>
           <div className={styles.share}></div>
