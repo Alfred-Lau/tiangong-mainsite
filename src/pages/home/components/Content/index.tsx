@@ -25,7 +25,7 @@ function AboutMeComponent() {
       <div className={styles.right}>
         <div className={styles.slogan}>ABOUT ME</div>
         <div className={styles.short}>
-          千帐， 鄙人千帐，生于塞上，游学于迤逦之乡，定居于人间天堂~
+          应有语， 鄙人应有语，生于塞上，游学于迤逦之乡，定居于人间天堂~
         </div>
         <div className={styles.long}>
           『自强不息，止于至善』『红专并进，理实交融』这些朴实凝萃的校训流淌我身，四年本科生涯、三年研究生涯，良师益友收获颇多~
@@ -301,7 +301,7 @@ function Content() {
       })}
 
       <footer className={styles.contentFooter}>
-        ©2020 - 现在 千帐 | Alfred-Lau All rights reserved
+        ©2020 - 现在 应有语 | Alfred-Lau All rights reserved
       </footer>
     </div>
   );

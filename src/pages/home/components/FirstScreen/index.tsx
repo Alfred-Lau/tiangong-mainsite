@@ -11,7 +11,7 @@ let index = 0;
 const MagicOcean = [
   '终于等到你，* *',
   '欢迎访问天工工程化主站',
-  '楼主 千帐，专注前端工程化',
+  '楼主 应有语，专注前端工程化',
 ];
 const FirstScreen = () => {
   const [magicName, setMagicName] = React.useState('终于等到你，* *');

@@ -54,7 +54,7 @@ function LeftMenu() {
         <div className={styles.footer}>
           <div className={styles.share}></div>
           <div className={styles.copytight}>
-            ©2020 - 现在 千帐 | Alfred-Lau All rights reserved
+            ©2020 - 现在 应有语 | Alfred-Lau All rights reserved
           </div>
         </div>
       </div>
