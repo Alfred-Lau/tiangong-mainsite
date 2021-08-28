@@ -25,12 +25,12 @@ function AboutMeComponent() {
       <div className={styles.right}>
         <div className={styles.slogan}>ABOUT ME</div>
         <div className={styles.short}>
-          应有语， 鄙人应有语，生于塞上，游学于迤逦之乡，定居于人间天堂~
+          本人网名烽火彼岸，生于塞上，游学于迤逦之乡，定居于人间天堂
         </div>
         <div className={styles.long}>
           『自强不息，止于至善』『红专并进，理实交融』这些朴实凝萃的校训流淌我身，四年本科生涯、三年研究生涯，良师益友收获颇多~
           前有软工查软件系统之宏著、后学信安观程序于微，科班出身，愿工程改变世界，更喜洞悉真知~
-          工作两载，扎根杭城，累哉累哉，自知其中快乐~
+          扎根杭城，累哉累哉，自知其中快乐~
         </div>
         <div className={styles.section}>
           <ul className={styles.items}>
@@ -61,7 +61,7 @@ function AboutMeComponent() {
             <li className={styles.item}>
               <span className={styles.label}>公众号:</span>
               <a href="" className={styles.href}>
-                且行且悟应有语
+                且行且悟烽火彼岸
               </a>
             </li>
           </ul>
@@ -301,7 +301,7 @@ function Content() {
       })}
 
       <footer className={styles.contentFooter}>
-        ©2020 - 现在 应有语 | Alfred-Lau All rights reserved
+        ©2020 - 现在 烽火彼岸 | Alfred-Lau All rights reserved
       </footer>
     </div>
   );
