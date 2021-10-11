@@ -101,69 +101,71 @@ function PieceWorkComponent() {
 function EngineeredToolComponent() {
   const cards = [
     {
-      id: 0,
-      title: '商城应用',
-      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
-      tags: ['vue', 'business'],
-      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      id: 13,
+      title: 'Vscode emmet 定制扩展',
+      link: 'https://github.com/Alfred-Lau/emmit',
       cover:
-        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/zcy-emmet.png',
+      desc: 'VS Code 扩展，支持简单的代码片段',
+      tech_stack: { vscode: 'latest' },
+    },
+
+    {
+      id: 10,
+      title: 'mirror',
+      link: 'https://github.com/Alfred-Lau/mirror',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/mirror.png',
+      desc: 'emmet 的升级版本，支持通过命令行生成模板页面',
+      tech_stack: { cli: 'latest', node: 'latest' },
     },
     {
-      id: 1,
-      title: '商城应用',
-      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
-      tags: ['vue', 'business'],
-      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      id: 12,
+      title: '@cli/core',
+      link: 'https://github.com/Alfred-Lau/cli_core_codebase',
+      desc: 'mirror 的再升级，作为核心类为命令行工具和 GUI 工具提供项目全流程支持 ',
       cover:
-        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/cli-core.png',
+      tech_stack: { node: 'latest', cli: '' },
     },
     {
-      id: 2,
-      title: '商城应用',
-      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
-      tags: ['vue', 'business'],
-      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      id: 11,
+      title: '天工',
+      link: 'https://github.com/Alfred-Lau/TianGong',
+      desc: '个人效率神器，Electron，套路大全',
       cover:
-        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/placeholder.png',
+      tech_stack: { node: 'latest', electron: '9.x.x', vue: 'latest' },
     },
     {
-      id: 3,
-      title: '商城应用',
-      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
-      tags: ['vue', 'business'],
-      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      id: 7,
+      title: 'TS 重写 Axios',
+      link: 'https://github.com/Alfred-Lau/ts-axios',
+      desc: '此处是个轮子',
       cover:
-        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/placeholder.png',
+      tech_stack: { typescript: 'latest' },
     },
     {
-      id: 4,
-      title: '商城应用',
-      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
-      tags: ['vue', 'business'],
-      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      id: 8,
+      title: 'vue-mooker',
+      link: 'https://github.com/Alfred-Lau/vue-mocker-testcase',
+      desc: 'Vue 的 mock 插件，首期支持接口测试功能',
       cover:
-        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/mofcker.png',
+      tech_stack: { vue: 'latest' },
     },
     {
-      id: 5,
-      title: '商城应用',
-      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
-      tags: ['vue', 'business'],
-      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
+      id: 9,
+      title: '模板引擎',
+      link: 'https://github.com/Alfred-Lau/fast-template-engine',
       cover:
-        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
-    },
-    {
-      id: 6,
-      title: '商城应用',
-      desc: '使用 Vue 2.6.11 开发的电商 PC 网站',
-      tags: ['vue', 'business'],
-      link: 'http://xiaomimall.lazy-minus-your-intelligence.com/#/',
-      cover:
-        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/template-engine.png',
+      desc: '基于 es6 字符串实现模板引擎',
+      tech_stack: { node: 'latest', cli: '' },
     },
   ];
+
   return (
     <div className={styles.engineeredtool}>
       {cards.map((card) => {

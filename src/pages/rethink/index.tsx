@@ -12,7 +12,9 @@ const Rethink: React.FC<MatchParams> = (props) => {
 
   return (
     <div className={styles.rethink}>
-      <main className={styles.main}>{currentId}</main>
+      <main className={styles.main}>
+        <div className={styles.content}>我是博客的主要内容</div>
+      </main>
     </div>
   );
 };
