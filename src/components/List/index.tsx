@@ -11,7 +11,7 @@ export interface ListProps {
 export type ItemProps = Partial<MainSiteApi.Blog>;
 
 function Item({ item }) {
-  const { title, description, author, created_at } = item;
+  const { title, description, author, createdAt } = item;
 
   const openLink = React.useCallback((item) => {
     const { id, link } = item;
@@ -32,7 +32,7 @@ function Item({ item }) {
 
       <p className={styles.info}>
         <a className={styles.author}>{author}</a>
-        <span className={styles.created_at}>{created_at}</span>
+        <span className={styles.created_at}>{createdAt}</span>
       </p>
       <p className={styles.description}>{description}</p>
     </div>
@@ -41,6 +41,8 @@ function Item({ item }) {
 
 function List(props: ListProps) {
   const { data = [], showMore } = props;
+  console.log('http://localhost:8000', data, showMore);
+
   return (
     <div className={styles.list}>
       {data.map((item, index) => {

@@ -33,7 +33,7 @@ function Timeline(props: Timeline) {
   return (
     <div className={styles.timelineContainer}>
       {timelines.map((item) => {
-        return <TimeLineItem {...item} />;
+        return <TimeLineItem {...item} key={item.id} />;
       })}
     </div>
   );

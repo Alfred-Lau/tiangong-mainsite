@@ -23,7 +23,11 @@ const FlipCard: React.FC<FlipCardProps> = (props: FlipCardProps) => {
           <span className={styles.title}>{title}</span>
           <div className={styles.tags}>
             {tags.map((tag) => {
-              return <span className={styles.tag}>{tag}</span>;
+              return (
+                <span className={styles.tag} key={tag}>
+                  {tag}
+                </span>
+              );
             })}
           </div>
           <p className={styles.desc}>{desc}</p>

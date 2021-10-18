@@ -76,7 +76,6 @@ function PieceWorkComponent() {
 
   useAsyncEffect(async () => {
     const works = await queryWorks();
-    console.log('works', works);
 
     setWorks(works);
   }, []);
@@ -86,6 +85,7 @@ function PieceWorkComponent() {
       {works.map((card) => {
         return (
           <FlipCard
+            key={card.id}
             title={card.title}
             desc={card.desc}
             tags={card.tags}
@@ -176,6 +176,7 @@ function EngineeredToolComponent() {
             tags={card.tags}
             link={card.link}
             cover={card.cover}
+            key={card.id}
           />
         );
       })}

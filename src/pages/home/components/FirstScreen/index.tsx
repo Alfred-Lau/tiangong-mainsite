@@ -50,7 +50,7 @@ const FirstScreen = () => {
         <DoubleRightOutlined />
       </div>
       <div className={styles.forkme}>
-        <img src="" alt="" srcset="" />
+        <img src="" alt="" srcSet="" />
       </div>
     </div>
   );
