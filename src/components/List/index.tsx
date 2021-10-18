@@ -40,7 +40,7 @@ function Item({ item }) {
 }
 
 function List(props: ListProps) {
-  const { data, showMore } = props;
+  const { data = [], showMore } = props;
   return (
     <div className={styles.list}>
       {data.map((item, index) => {
