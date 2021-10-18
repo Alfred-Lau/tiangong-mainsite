@@ -7,6 +7,6 @@ import request from '@/utils/request';
  * @return {*}  {Promise<MainSiteApi.Blog[]>}
  */
 export async function queryBlogs(): Promise<MainSiteApi.Blog[]> {
-  const result = await request('/api/mainsite/blog/list');
-  return result;
+  const { data: { list = [] } = {} } = await request('/api/mainsite/blog/list');
+  return list;
 }
