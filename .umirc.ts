@@ -16,5 +16,8 @@ export default defineConfig({
     `
     document.write(unescape("%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1280463264' type='text/javascript'%3E%3C/script%3E"));
     `,
+    `
+    document.body.removeChild(document.querySelector('a[title="站长统计"]'))
+    `,
   ],
 });
