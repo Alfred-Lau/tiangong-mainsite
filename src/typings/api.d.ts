@@ -13,8 +13,10 @@ declare namespace MainSiteApi {
     id: number;
     title: string;
     description: string;
+    content: string;
+    tags: string;
     link: string;
-    created_at: string;
+    createdAt: string;
     author: string;
   }
 }

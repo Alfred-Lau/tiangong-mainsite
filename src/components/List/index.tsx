@@ -41,7 +41,6 @@ function Item({ item }) {
 
 function List(props: ListProps) {
   const { data = [], showMore } = props;
-  console.log('http://localhost:8000', data, showMore);
 
   return (
     <div className={styles.list}>
