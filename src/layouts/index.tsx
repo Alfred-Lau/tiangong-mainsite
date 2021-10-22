@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav } from '@tiangongkit/react-component';
+import { Nav, Footer } from '@tiangongkit/react-component';
 
 import { useHistory } from 'umi';
 import styles from './index.less';
@@ -22,6 +22,7 @@ const IndexLayout: React.FC = (props) => {
         </Nav>
       </header>
       {props.children}
+      <Footer />
     </div>
   );
 };
