@@ -75,9 +75,9 @@ function PieceWorkComponent() {
   const [works, setWorks] = React.useState<MainSiteApi.WorkPiece[]>([]);
 
   useAsyncEffect(async () => {
-    const works = await queryWorks();
+    const { data } = await queryWorks();
 
-    setWorks(works);
+    setWorks(data?.list);
   }, []);
 
   return (
