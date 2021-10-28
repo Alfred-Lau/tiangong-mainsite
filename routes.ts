@@ -4,6 +4,10 @@ const routes = [
     component: 'home',
   },
   {
+    path: '/login',
+    component: 'login',
+  },
+  {
     path: '/rethink/:id',
     component: '@/layouts',
     routes: [
