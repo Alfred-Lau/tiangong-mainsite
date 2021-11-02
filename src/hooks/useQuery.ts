@@ -8,7 +8,5 @@ import { MatchParams } from './hook';
  * @return {*}
  */
 export default function useQuery(props: MatchParams) {
-  console.log('params', props);
-
   return props?.location?.query;
 }

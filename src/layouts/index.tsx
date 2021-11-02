@@ -13,7 +13,7 @@ const IndexLayout: React.FC = (props) => {
   ];
   return (
     <div className={styles.layout}>
-      <header className={styles.header} onClick={() => history.push('/')}>
+      <header className={styles.header} onClick={() => history.push('/login')}>
         <Nav
           menus={menus}
           logo="https://lazy-minus-your-intelligence.com/assets/avatar.png"
