@@ -12,6 +12,9 @@ export default defineConfig({
     'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/favicon.ico',
   title: '天工工程体系主站',
   proxy,
+  headScripts: [
+    `https://tiangong-tracert.oss-cn-beijing.aliyuncs.com/tiangong-sdk.umd.js`,
+  ],
   scripts: [
     `
     document.write(unescape("%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1280463264' type='text/javascript'%3E%3C/script%3E"));
