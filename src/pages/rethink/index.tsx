@@ -30,7 +30,7 @@ const Rethink: React.FC<MatchParams> = (props) => {
           <p className={styles.description}>{detail?.description}</p>
           <article
             className={styles.article}
-            dangerouslySetInnerHTML={{ __html: detail?.content }}
+            dangerouslySetInnerHTML={{ __html: detail?.content! }}
           ></article>
         </div>
       </main>

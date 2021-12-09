@@ -11,3 +11,5 @@ export default function useParams(props: MatchParams) {
   const { match } = props;
   return match;
 }
+
+export { MatchParams };

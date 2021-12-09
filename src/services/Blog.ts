@@ -24,7 +24,6 @@ export async function queryBlogDetailById(
   const { data: detail = {} } = await request('/api/mainsite/blog/detail', {
     params: { id },
   });
-  console.log('ret', detail);
 
   return detail;
 }
