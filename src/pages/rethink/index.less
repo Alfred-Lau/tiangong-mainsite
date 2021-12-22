@@ -56,27 +56,40 @@
 @media (max-width: @min-width - 1) {
   .rethink {
     .main {
-      width: 100%;
-      .title {
-        font-size: 24px !important;
+      display: flex;
+      flex-direction: column;
+      .aside {
+        order: 0;
       }
+      .content {
+        order: 1;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 8px 16px 0 rgb(105, 123, 140, 10%);
+        min-height: 100vh;
+        text-align: center;
+        padding: 24px;
+        .title {
+          font-size: 24px !important;
+        }
 
-      .meta {
-        font-size: 14px !important;
-      }
-      .description {
-        font-size: 14px !important;
-        line-height: 24px !important;
-        text-align: left !important;
-        color: #666;
-        padding: 10px 23px;
-        margin: 22px 0 !important;
-        border-left: 4px solid #cbcbcb;
-        background-color: #f8f8f8;
-      }
+        .meta {
+          font-size: 14px !important;
+        }
+        .description {
+          font-size: 14px !important;
+          line-height: 24px !important;
+          text-align: left !important;
+          color: #666;
+          padding: 10px 23px;
+          margin: 22px 0 !important;
+          border-left: 4px solid #cbcbcb;
+          background-color: #f8f8f8;
+        }
 
-      .article {
-        text-align: left !important;
+        .article {
+          text-align: left !important;
+        }
       }
     }
   }

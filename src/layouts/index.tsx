@@ -1,8 +1,10 @@
 import React from 'react';
+import MediaQuery from 'react-responsive';
 import { Nav, Footer } from '@tiangongkit/react-component';
 
 import { useHistory } from 'umi';
 import styles from './index.less';
+import { MIN_WIDTH } from '@/constants/varibles';
 
 const IndexLayout: React.FC = (props) => {
   const menus = [
@@ -12,14 +14,16 @@ const IndexLayout: React.FC = (props) => {
   ];
   return (
     <div className={styles.layout}>
-      <header className={styles.header}>
-        <Nav
-          menus={menus}
-          logo="https://lazy-minus-your-intelligence.com/assets/avatar.png"
-        >
-          <span>冯唐易老李广难封</span>
-        </Nav>
-      </header>
+      <MediaQuery minWidth={MIN_WIDTH}>
+        <header className={styles.header}>
+          <Nav
+            menus={menus}
+            logo="https://lazy-minus-your-intelligence.com/assets/avatar.png"
+          >
+            <span>冯唐易老李广难封</span>
+          </Nav>
+        </header>
+      </MediaQuery>
       {props.children}
       <Footer />
     </div>
