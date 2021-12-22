@@ -4,9 +4,9 @@
   background: #f3f3f3;
   .main {
     background: #fff;
-    width: 1280px;
-    margin: 0 auto;
+    display: flex;
     .content {
+      width: @width;
       background: #fff;
       box-shadow: 0 8px 16px 0 rgb(105, 123, 140, 10%);
       min-height: 100vh;
@@ -46,6 +46,9 @@
         font-size: 24px;
         text-align: left;
       }
+    }
+    .aside {
+      flex: 1;
     }
   }
 }

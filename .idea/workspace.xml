@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/hooks/useParams.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useParams.tsx" afterDir="false" />
+    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
+      <change afterPath="$PROJECT_DIR$/public/assets/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/rethink/components/Aside/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/rethink/components/Aside/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/rethink/components/Banner/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/rethink/components/Banner/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/hook.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/hook.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/rethink/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/rethink/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/rethink/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/rethink/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Blog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Blog.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/themes/varibles.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/themes/varibles.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,17 +41,22 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="21p3NKwNxG9EFJ1jtre7KTioVYW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettier.import.notification.dismissed" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
@@ -49,12 +74,36 @@
       <workItem from="1638624174470" duration="3641000" />
       <workItem from="1638718701987" duration="214000" />
       <workItem from="1638800165281" duration="21000" />
-      <workItem from="1639064630525" duration="580000" />
+      <workItem from="1639064630525" duration="1712000" />
+      <workItem from="1639322800454" duration="232000" />
+      <workItem from="1639582427629" duration="2180000" />
+      <workItem from="1639742949651" duration="100000" />
+      <workItem from="1639749567624" duration="354000" />
+      <workItem from="1639838688442" duration="598000" />
+      <workItem from="1639884049398" duration="357000" />
+      <workItem from="1640183698408" duration="37000" />
+      <workItem from="1640183756205" duration="4462000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

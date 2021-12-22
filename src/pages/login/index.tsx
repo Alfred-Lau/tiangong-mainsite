@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import type { MatchParams } from '@/hooks/hook.d';
+import type { MatchParams } from '@/hooks/hook';
 import useQuery from '@/hooks/useQuery';
 import request from '@/utils/request';
 import styles from './index.less';
@@ -11,9 +11,8 @@ const Login: React.FC<MatchParams> = (props) => {
 
   const handleSubmit = (e: React.MouseEvent<HTMLElement>) => {
     e.preventDefault();
-    console.log(username, password);
 
-    const result = request('/api/user/login', {
+    request('/api/user/login', {
       method: 'POST',
       data: JSON.stringify({}),
     }).then((resp) => console.log(resp));
@@ -22,11 +21,11 @@ const Login: React.FC<MatchParams> = (props) => {
     }
   };
 
-  const handleUsernameChange = (e: MouseEvent) => {
+  const handleUsernameChange = (e: React.ChangeEvent<HTMLElement>) => {
     setUsername((e.target as HTMLInputElement).value);
   };
 
-  const handlePasswordChange = (e: MouseEvent) => {
+  const handlePasswordChange = (e: React.ChangeEvent<HTMLElement>) => {
     setPassword((e.target as HTMLInputElement).value);
   };
   return (
