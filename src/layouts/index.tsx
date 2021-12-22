@@ -1,10 +1,9 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
-import { Nav, Footer } from '@tiangongkit/react-component';
-
-import { useHistory } from 'umi';
+import { Footer, Nav } from '@tiangongkit/react-component';
 import styles from './index.less';
 import { MIN_WIDTH } from '@/constants/varibles';
+import { BreadcrumbNavigation } from '@/components/BreadcrumbNavigation';
 
 const IndexLayout: React.FC = (props) => {
   const menus = [
@@ -24,6 +23,10 @@ const IndexLayout: React.FC = (props) => {
           </Nav>
         </header>
       </MediaQuery>
+      <MediaQuery maxWidth={MIN_WIDTH - 1}>
+        <BreadcrumbNavigation />
+      </MediaQuery>
+
       {props.children}
       <Footer />
     </div>

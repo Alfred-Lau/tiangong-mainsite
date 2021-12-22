@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
+    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: 主站移动端详情页样式修复">
+      <change afterPath="$PROJECT_DIR$/src/components/BreadcrumbNavigation/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BreadcrumbNavigation/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/rethink/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/rethink/index.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,14 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/src/components/breadcrumbNavigation.tsx" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/BreadcrumbNavigation" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +78,7 @@
       <workItem from="1639838688442" duration="598000" />
       <workItem from="1639884049398" duration="357000" />
       <workItem from="1640183698408" duration="37000" />
-      <workItem from="1640183756205" duration="5275000" />
+      <workItem from="1640183756205" duration="6024000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
@@ -78,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640188499799</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: 主站移动端详情页样式修复">
+      <created>1640189319464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640189319464</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +114,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；" />
+    <MESSAGE value="feat: 主站移动端详情页样式修复" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 主站移动端详情页样式修复" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
