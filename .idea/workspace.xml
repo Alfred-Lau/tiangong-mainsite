@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: 汉堡版导航骨架添加">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/CTA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Decore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Rectangle 14 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Rectangle 14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Rectangle 17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Top Nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/banner-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/banner-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Travel/components/Banner/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Travel/components/Banner/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Travel/components/Nav/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Travel/components/Nav/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Travel/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Travel/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +93,9 @@
       <workItem from="1639838688442" duration="598000" />
       <workItem from="1639884049398" duration="357000" />
       <workItem from="1640183698408" duration="37000" />
-      <workItem from="1640183756205" duration="6328000" />
+      <workItem from="1640183756205" duration="6824000" />
+      <workItem from="1640192359438" duration="7000" />
+      <workItem from="1640268601476" duration="5992000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
@@ -98,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640191194584</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: 汉堡版导航骨架添加">
+      <created>1640191486373</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640191486373</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

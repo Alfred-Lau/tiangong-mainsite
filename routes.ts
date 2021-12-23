@@ -17,6 +17,10 @@ const routes = [
       },
     ],
   },
+  {
+    path: '/copycat/travel',
+    component: 'Travel',
+  },
 ];
 
 export default routes;
