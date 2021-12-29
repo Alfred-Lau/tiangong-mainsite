@@ -5,6 +5,7 @@ import proxy from './proxy';
 export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
+    exclude: ['@tiangongkit/lib'],
   },
   routes,
   fastRefresh: {},
@@ -17,7 +18,7 @@ export default defineConfig({
   ],
   scripts: [
     `
-    document.write(unescape("%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1280463264' type='text/javascript'%3E%3C/script%3E"));
+    document.write(unescape("%3Cscript src='https://s9.cnzz.com/z_stat.php?id=1280463003&web_id=1280463003' type='text/javascript'%3E%3C/script%3E"));
     `,
     `
     document.body.removeChild(document.querySelector('a[title="站长统计"]'))
@@ -46,4 +47,11 @@ export default defineConfig({
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/favicon.ico',
     },
   ],
+  chainWebpack: (memo, { env, webpack, createCSSRule }) => {
+    console.log(memo);
+    // // 设置 alias
+    // memo.resolve.alias.set(
+    //
+    // );
+  },
 });
