@@ -21,7 +21,7 @@ const Rethink: React.FC<MatchParams> = (props) => {
   }, []);
 
   return (
-    <div className={styles.rethink}>
+    <div className={styles.rethink} id={'top'}>
       <Banner src={'/assets/1.jpg'} />
       <main className={styles.main}>
         <div className={styles.content}>
