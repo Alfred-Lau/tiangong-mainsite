@@ -216,7 +216,7 @@ function ExperenceComponent() {
       id: 3,
       title: '蚂蚁集团 - 体验技术部',
       duration: '2020-07 至 2020-11',
-      content: '自强不息，止于至善',
+      content: '基于集团自研node全栈框架，投入ob 官网业务研发',
       tag: '',
     },
     {

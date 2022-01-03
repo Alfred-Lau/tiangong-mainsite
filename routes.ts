@@ -8,15 +8,20 @@ const routes = [
     component: 'login',
   },
   {
-    path: '/rethink/:id',
+    name: '导航布局',
     component: '@/layouts',
     routes: [
       {
         path: '/rethink/:id',
         component: 'rethink',
       },
+      {
+        path: '/tags/:keyword',
+        component: 'tag',
+      },
     ],
   },
+
   {
     path: '/copycat/travel',
     component: 'Travel',
