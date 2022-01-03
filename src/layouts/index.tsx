@@ -8,9 +8,14 @@ import FixedHeader from '@/components/FixedHeader';
 
 const IndexLayout: React.FC = (props) => {
   const menus = [
-    { id: 0, title: '技术体系', link: '', items: ['产品', '服务'] },
-    { id: 1, title: '团队管理', link: '', items: ['理财', '油腻'] },
-    { id: 2, title: '人生逆旅', link: '', items: ['慈善', '春风十里'] },
+    {
+      id: 0,
+      title: '技术赋能产品',
+      link: '',
+      items: ['产品矩阵', '技术体系', '解决方案'],
+    },
+    { id: 1, title: '花叶世界', link: '', items: ['团队管理', '个体感悟'] },
+    { id: 2, title: '人生逆旅', link: '', items: ['时间线'] },
   ];
   return (
     <div className={styles.layout}>
