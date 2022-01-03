@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: add fixedheader">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FixedHeader/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FixedHeader/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/rethink/components/Banner/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/rethink/components/Banner/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/rethink/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/rethink/index.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +102,7 @@
       <workItem from="1640792640917" duration="44000" />
       <workItem from="1640802558607" duration="108000" />
       <workItem from="1640968352611" duration="16000" />
-      <workItem from="1641143522983" duration="2914000" />
+      <workItem from="1641143522983" duration="4545000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
@@ -157,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641150715308</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: add fixedheader">
+      <created>1641150785603</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641150785603</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
