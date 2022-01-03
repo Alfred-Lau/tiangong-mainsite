@@ -27,6 +27,29 @@
           height: 100%;
           padding: 10px;
         }
+
+        .menu-mask-active {
+          display: block;
+          z-index: 1;
+          text-align: left;
+          backdrop-filter: blur(10px);
+          background: transparent;
+          .popover {
+            display: block;
+            &-menu {
+              &-item {
+                cursor: pointer;
+                list-style: none;
+                padding-bottom: 10px;
+                width: 140px;
+                padding-left: 20px;
+                &:hover {
+                  background: #f1d4d4;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
