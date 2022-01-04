@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: add tags">
+    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: adjust nav text">
+      <change afterPath="$PROJECT_DIR$/src/services/Tag.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/rethink/components/Aside/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/rethink/components/Aside/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/Blog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Blog.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/typings/api.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/typings/api.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/request.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/request.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -101,7 +105,7 @@
       <workItem from="1640968352611" duration="16000" />
       <workItem from="1641143522983" duration="6860000" />
       <workItem from="1641217170461" duration="322000" />
-      <workItem from="1641222919003" duration="2249000" />
+      <workItem from="1641222919003" duration="4543000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
@@ -187,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641224494545</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: adjust nav text">
+      <created>1641234049930</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1641234049930</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +224,8 @@
     <MESSAGE value="feat: jadoo 仿站添加 layer" />
     <MESSAGE value="feat: add fixedheader" />
     <MESSAGE value="feat: add tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add tags" />
+    <MESSAGE value="feat: adjust nav text" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adjust nav text" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -6,7 +6,7 @@ import request from '@/utils/request';
  * @export
  * @return {*}  {Promise<MainSiteApi.Blog[]>}
  */
-export async function queryBlogs(): Promise<MainSiteApi.Blog[]> {
+export async function queryBlogs(): Promise<MainSiteApi.BlogItem[]> {
   const { data: { list = [] } = {} } = await request('/api/mainsite/blog/list');
   return list;
 }
@@ -20,7 +20,7 @@ export async function queryBlogs(): Promise<MainSiteApi.Blog[]> {
  */
 export async function queryBlogDetailById(
   id: number,
-): Promise<MainSiteApi.Blog> {
+): Promise<MainSiteApi.BlogItem> {
   const { data: detail = {} } = await request('/api/mainsite/blog/detail', {
     params: { id },
   });

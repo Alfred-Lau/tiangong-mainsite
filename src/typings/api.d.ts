@@ -1,4 +1,19 @@
 declare namespace MainSiteApi {
+  export type ResponseData<T> = {
+    success: boolean;
+    message: string | null;
+    data: T;
+  };
+  type Tag = ResponseData<{
+    total: number;
+    list: TagItem[];
+  }>;
+
+  type Blog = ResponseData<{
+    total: number;
+    list: BlogItem[];
+  }>;
+
   interface WorkPiece {
     id: number;
     title: string;
@@ -7,8 +22,12 @@ declare namespace MainSiteApi {
     link: string;
     cover: string;
   }
+  interface TagItem {
+    title: string;
+    id: number;
+  }
 
-  interface Blog {
+  interface BlogItem {
     key: number;
     id: number;
     title: string;
