@@ -3,22 +3,35 @@ import type { MatchParams } from '@/hooks/hook';
 import useQuery from '@/hooks/useQuery';
 import request from '@/utils/request';
 import styles from './index.less';
+import { useHistory } from 'umi';
 
 const Login: React.FC<MatchParams> = (props) => {
   const { goto } = useQuery(props);
   const [username, setUsername] = useState<string>('');
   const [password, setPassword] = useState<string>('');
+  const history = useHistory();
 
   const handleSubmit = (e: React.MouseEvent<HTMLElement>) => {
     e.preventDefault();
 
     request('/api/user/login', {
       method: 'POST',
-      data: JSON.stringify({}),
-    }).then((resp) => console.log(resp));
-    if (goto) {
-      window.open(goto);
-    }
+      data: JSON.stringify({ username, password }),
+    })
+      .then((resp) => {
+        if (resp.status === 'ok') {
+          const userInfo = {
+            ...resp,
+          };
+
+          window.user = userInfo;
+        }
+      })
+      .then(() => {
+        if (goto) {
+          history.push(goto);
+        }
+      });
   };
 
   const handleUsernameChange = (e: React.ChangeEvent<HTMLElement>) => {

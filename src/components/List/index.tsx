@@ -8,9 +8,9 @@ export interface ListProps {
   showMore?: boolean;
 }
 
-export type ItemProps = Partial<MainSiteApi.Blog>;
+export type ItemProps = Partial<MainSiteApi.BlogItem>;
 
-function Item({ item }) {
+function Item({ item }: { item: Partial<MainSiteApi.BlogItem> }) {
   const { title, description, author, createdAt } = item;
 
   const openLink = React.useCallback((item) => {

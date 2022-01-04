@@ -14,6 +14,20 @@ declare namespace MainSiteApi {
     list: BlogItem[];
   }>;
 
+  type User = {
+    access: 'admin' | 'guest';
+    createdAt: Date;
+    currentAuthority: 'admin' | 'guest';
+    id: number;
+    nickName: string;
+    password: string;
+    portrait: string;
+    status: 'ok' | 'error';
+    token: string;
+    updatedAt: Date;
+    username: string;
+  };
+
   interface WorkPiece {
     id: number;
     title: string;
@@ -38,4 +52,8 @@ declare namespace MainSiteApi {
     createdAt: string;
     author: string;
   }
+}
+
+declare interface Window {
+  user: any;
 }

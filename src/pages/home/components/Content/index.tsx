@@ -108,6 +108,7 @@ function EngineeredToolComponent() {
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/zcy-emmet.png',
       desc: 'VS Code 扩展，支持简单的代码片段',
       tech_stack: { vscode: 'latest' },
+      tags: [],
     },
 
     {
@@ -118,6 +119,7 @@ function EngineeredToolComponent() {
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/mirror.png',
       desc: 'emmet 的升级版本，支持通过命令行生成模板页面',
       tech_stack: { cli: 'latest', node: 'latest' },
+      tags: [],
     },
     {
       id: 12,
@@ -127,6 +129,7 @@ function EngineeredToolComponent() {
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/cli-core.png',
       tech_stack: { node: 'latest', cli: '' },
+      tags: [],
     },
     {
       id: 11,
@@ -136,6 +139,7 @@ function EngineeredToolComponent() {
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/placeholder.png',
       tech_stack: { node: 'latest', electron: '9.x.x', vue: 'latest' },
+      tags: [],
     },
     {
       id: 7,
@@ -145,6 +149,7 @@ function EngineeredToolComponent() {
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/placeholder.png',
       tech_stack: { typescript: 'latest' },
+      tags: [],
     },
     {
       id: 8,
@@ -154,6 +159,7 @@ function EngineeredToolComponent() {
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/mofcker.png',
       tech_stack: { vue: 'latest' },
+      tags: [],
     },
     {
       id: 9,
@@ -163,6 +169,7 @@ function EngineeredToolComponent() {
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/template-engine.png',
       desc: '基于 es6 字符串实现模板引擎',
       tech_stack: { node: 'latest', cli: '' },
+      tags: [],
     },
   ];
 
@@ -184,7 +191,7 @@ function EngineeredToolComponent() {
   );
 }
 
-function ExperenceComponent() {
+function ExperienceComponent() {
   const timelines = [
     {
       id: 0,
@@ -235,7 +242,7 @@ function ExperenceComponent() {
 }
 
 function BlogComponent() {
-  const [blogs, setBlogs] = React.useState<MainSiteApi.Blog[]>([]);
+  const [blogs, setBlogs] = React.useState<MainSiteApi.BlogItem[]>([]);
 
   useAsyncEffect(async () => {
     const blogs = await queryBlogs();
@@ -275,7 +282,7 @@ const CONTENT_ARRAY = [
     sort: 4,
     title: 'EXPERIENCE',
     subtitle: 'MY EXPERIENCE',
-    component: ExperenceComponent,
+    component: ExperienceComponent,
     anchor: 'experience',
   },
   {

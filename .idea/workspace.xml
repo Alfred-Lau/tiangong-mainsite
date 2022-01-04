@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: adjust nav text">
-      <change afterPath="$PROJECT_DIR$/src/services/Tag.ts" afterDir="false" />
+    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: add queryTags">
+      <change afterPath="$PROJECT_DIR$/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Nav/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Nav/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useAuth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/personal/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/personal/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/User.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/rethink/components/Aside/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/rethink/components/Aside/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Blog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Blog.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/typings/api.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/typings/api.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/request.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/request.ts" afterDir="false" />
     </list>
@@ -17,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -105,7 +115,7 @@
       <workItem from="1640968352611" duration="16000" />
       <workItem from="1641143522983" duration="6860000" />
       <workItem from="1641217170461" duration="322000" />
-      <workItem from="1641222919003" duration="4543000" />
+      <workItem from="1641222919003" duration="9758000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
@@ -198,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641234049930</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: add queryTags">
+      <created>1641309578067</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1641309578067</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +242,8 @@
     <MESSAGE value="feat: add fixedheader" />
     <MESSAGE value="feat: add tags" />
     <MESSAGE value="feat: adjust nav text" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: adjust nav text" />
+    <MESSAGE value="feat: add queryTags" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add queryTags" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

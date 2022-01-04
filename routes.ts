@@ -19,6 +19,10 @@ const routes = [
         path: '/tags/:keyword',
         component: 'tag',
       },
+      {
+        path: '/personal',
+        component: 'personal',
+      },
     ],
   },
 
