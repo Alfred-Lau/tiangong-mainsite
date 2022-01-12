@@ -8,7 +8,7 @@ const DOMAIN =
 
 const OPEN_API_DOMAIN =
   process.env.NODE_ENV !== 'development'
-    ? 'http://api.lazy-minus-your-intelligence.com'
+    ? 'https://api.lazy-minus-your-intelligence.com'
     : 'http://localhost:7001';
 
 export default (url: string, options?: RequestConfig) => {
