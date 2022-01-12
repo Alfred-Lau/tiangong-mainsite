@@ -5,8 +5,20 @@
     text-align: left;
   }
   .list {
+    list-style: none;
+    padding-left: 0;
     li {
       .item {
+        padding: 20px;
+        border: 1px solid rgba(200, 200, 200, 0.3);
+        background: #fefefe;
+        height: 200px;
+
+        &:hover {
+          cursor: pointer;
+          color: #1890ff;
+          background: #efefef;
+        }
       }
     }
   }

@@ -17,7 +17,9 @@ const Aside: FC = (props) => {
       <ul className={styles.list}>
         {tags.map((item) => (
           <li key={item.id}>
-            <div className={styles.item}>{item.title}</div>
+            <div className={styles.item}>
+              <h3>{item.title}</h3>
+            </div>
           </li>
         ))}
       </ul>
