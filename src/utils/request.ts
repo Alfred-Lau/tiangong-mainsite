@@ -3,13 +3,10 @@ import jscookie from 'js-cookie';
 
 console.log('process.env.NODE_ENV', process.env.NODE_ENV);
 
-const DOMAIN =
-  process.env.NODE_ENV === 'prod' ? 'http://139.129.44.2:8082/' : '';
+const DOMAIN = process.env.NODE_ENV === 'prod' ? '' : '';
 
 const OPEN_API_DOMAIN =
-  process.env.NODE_ENV !== 'development'
-    ? 'https://api.lazy-minus-your-intelligence.com'
-    : 'http://localhost:7001';
+  process.env.NODE_ENV !== 'development' ? '' : 'http://localhost:7001';
 
 export default (url: string, options?: RequestConfig) => {
   const token = jscookie.get('authorization');
@@ -25,7 +22,9 @@ export default (url: string, options?: RequestConfig) => {
 export function requestOpenAPI(url: string, options?: RequestConfig) {
   const token = jscookie.get('authorization');
 
-  return request(`${OPEN_API_DOMAIN}${url}`, {
+  const realURL = url.replace('/api', '/openapi');
+
+  return request(realURL, {
     ...options,
     headers: {
       ...options?.headers,
