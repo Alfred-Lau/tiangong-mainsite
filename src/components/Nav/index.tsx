@@ -110,6 +110,7 @@ const Nav = (props: NavProps & { children?: React.ReactElement }) => {
                 className="menu-main-item"
                 onMouseEnter={() => showMore(index)}
                 onMouseLeave={() => showLess(index)}
+                key={index}
               >
                 {menu.title}
               </li>
@@ -131,7 +132,11 @@ const Nav = (props: NavProps & { children?: React.ReactElement }) => {
         <div className="popover">
           <ul className="popover-menu">
             {menus[currentIndex]?.items.map((item) => {
-              return <li className="popover-menu-item">{item}</li>;
+              return (
+                <li className="popover-menu-item" key={item.id}>
+                  {item}
+                </li>
+              );
             })}
           </ul>
         </div>

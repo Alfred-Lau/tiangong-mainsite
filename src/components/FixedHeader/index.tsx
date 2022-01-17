@@ -31,10 +31,6 @@ const FixedHeader: FC = function FixedHeader(props) {
   useEffect(() => {
     function scrollHandler() {
       const top = document.getElementById('top');
-      console.log(
-        'top?.getBoundingClientRect().top',
-        top?.getBoundingClientRect().top,
-      );
 
       if (top?.getBoundingClientRect().top! < 0) {
         // 开始设置滚动的底色

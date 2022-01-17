@@ -1,8 +1,6 @@
 import { request, RequestConfig } from 'umi';
 import jscookie from 'js-cookie';
 
-console.log('process.env.NODE_ENV', process.env.NODE_ENV);
-
 const DOMAIN = process.env.NODE_ENV === 'prod' ? '' : '';
 
 const OPEN_API_DOMAIN =
@@ -10,6 +8,8 @@ const OPEN_API_DOMAIN =
 
 export default (url: string, options?: RequestConfig) => {
   const token = jscookie.get('authorization');
+
+  console.log('token', token);
   return request(`${DOMAIN}${url}`, {
     ...options,
     headers: {
@@ -23,8 +23,7 @@ export function requestOpenAPI(url: string, options?: RequestConfig) {
   const token = jscookie.get('authorization');
 
   const realURL = url.replace('/api', '/openapi');
-
-  return request(realURL, {
+  return request(`${OPEN_API_DOMAIN}${realURL}`, {
     ...options,
     headers: {
       ...options?.headers,

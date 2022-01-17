@@ -48,7 +48,6 @@ export default defineConfig({
     },
   ],
   chainWebpack: (memo, { env, webpack, createCSSRule }) => {
-    console.log(memo);
     // // 设置 alias
     // memo.resolve.alias.set(
     //
