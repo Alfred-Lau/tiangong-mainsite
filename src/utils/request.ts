@@ -9,7 +9,6 @@ const OPEN_API_DOMAIN =
 export default (url: string, options?: RequestConfig) => {
   const token = jscookie.get('authorization');
 
-  console.log('token', token);
   return request(`${DOMAIN}${url}`, {
     ...options,
     headers: {
