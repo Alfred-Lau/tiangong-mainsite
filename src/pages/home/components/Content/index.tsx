@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback, useState } from 'react';
 import MediaQuery from 'react-responsive';
 import { MIN_WIDTH } from '@/constants/varibles';
 import styles from './index.less';
@@ -243,15 +243,22 @@ function ExperienceComponent() {
 
 function BlogComponent() {
   const [blogs, setBlogs] = React.useState<MainSiteApi.BlogItem[]>([]);
+  const pageSize = 5;
+  const [pageNo, setPageNo] = React.useState(1);
 
   useAsyncEffect(async () => {
-    const blogs = await queryBlogs();
-
+    const blogs = await queryBlogs({ pageNo, pageSize });
     setBlogs(blogs);
   }, []);
+
+  const loadMore = async () => {
+    const more = await queryBlogs({ pageNo: pageNo + 1, pageSize });
+    setPageNo(pageNo + 1);
+    setBlogs(blogs.concat(more));
+  };
   return (
     <div>
-      <List data={blogs} showMore />
+      <List data={blogs} showMore handleLoadMore={loadMore} />
     </div>
   );
 }

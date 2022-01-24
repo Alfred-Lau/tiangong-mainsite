@@ -6,8 +6,17 @@ import request from '@/utils/request';
  * @export
  * @return {*}  {Promise<MainSiteApi.Blog[]>}
  */
-export async function queryBlogs(): Promise<MainSiteApi.BlogItem[]> {
-  const { data: { list = [] } = {} } = await request('/api/mainsite/blog/list');
+export async function queryBlogs({
+  pageNo,
+  pageSize,
+}: {
+  pageNo: number;
+  pageSize: number;
+}): Promise<MainSiteApi.BlogItem[]> {
+  const { data: { list = [] } = {} } = await request(
+    '/api/mainsite/blog/list',
+    { params: { pageNo, pageSize } },
+  );
   return list;
 }
 
