@@ -13,6 +13,7 @@ export default (url: string, options?: RequestConfig) => {
     ...options,
     headers: {
       ...options?.headers,
+      'Content-Type': 'application/json',
       Authorization: `Bearer ${token}`,
     },
   });
@@ -26,6 +27,7 @@ export function requestOpenAPI(url: string, options?: RequestConfig) {
     ...options,
     headers: {
       ...options?.headers,
+      'Content-Type': 'application/json',
       Authorization: `Bearer ${token}`,
     },
   });
