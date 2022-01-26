@@ -6,6 +6,7 @@ import {
   FundProjectionScreenOutlined,
   HomeOutlined,
   CrownOutlined,
+  FireOutlined,
 } from '@ant-design/icons';
 import Avatar from '@/components/Avatar';
 
@@ -49,6 +50,7 @@ function LeftMenu() {
               title="天工"
               target="_blank"
             />
+            <FireOutlined className={styles.hoticon} />
           </div>
         </Anchor>
         <div className={styles.footer}>

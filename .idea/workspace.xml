@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: add tag">
+    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: add blog pagesize and pageNO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/List/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Blog.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Blog.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +118,7 @@
       <workItem from="1642261363381" duration="204000" />
       <workItem from="1642264744861" duration="1728000" />
       <workItem from="1642430093789" duration="5791000" />
-      <workItem from="1642952876579" duration="7910000" />
+      <workItem from="1642952876579" duration="9013000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
@@ -261,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643004974636</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="feat: add blog pagesize and pageNO">
+      <created>1643026405390</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1643026405390</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +297,8 @@
     <MESSAGE value="feat: add queryTags" />
     <MESSAGE value="feat: add userinfo" />
     <MESSAGE value="feat: add tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add tag" />
+    <MESSAGE value="feat: add blog pagesize and pageNO" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add blog pagesize and pageNO" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
