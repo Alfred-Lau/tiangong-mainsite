@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: add blog pagesize and pageNO">
+    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: add hot icon for tiangong-doc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/personal/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/personal/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/personal/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/personal/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +23,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.less" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.umirc.ts" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/pages/rethink/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/List/index.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/utils/formatHtml.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/rethink/components/Banner/index.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tsconfig.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="373tbjr9" />
@@ -118,7 +123,9 @@
       <workItem from="1642261363381" duration="204000" />
       <workItem from="1642264744861" duration="1728000" />
       <workItem from="1642430093789" duration="5791000" />
-      <workItem from="1642952876579" duration="9013000" />
+      <workItem from="1642952876579" duration="11510000" />
+      <workItem from="1643260130192" duration="599000" />
+      <workItem from="1643384780949" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
@@ -267,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643026405390</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat: add hot icon for tiangong-doc">
+      <created>1643159090878</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1643159090878</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +312,8 @@
     <MESSAGE value="feat: add userinfo" />
     <MESSAGE value="feat: add tag" />
     <MESSAGE value="feat: add blog pagesize and pageNO" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add blog pagesize and pageNO" />
+    <MESSAGE value="feat: add hot icon for tiangong-doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add hot icon for tiangong-doc" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
