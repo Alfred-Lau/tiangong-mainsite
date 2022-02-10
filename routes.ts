@@ -8,6 +8,10 @@ const routes = [
     component: 'login',
   },
   {
+    path: '/copycat/travel',
+    component: 'travel',
+  },
+  {
     name: '导航布局',
     component: '@/layouts',
     routes: [
@@ -24,11 +28,6 @@ const routes = [
         component: 'personal',
       },
     ],
-  },
-
-  {
-    path: '/copycat/travel',
-    component: 'Travel',
   },
 ];
 

@@ -1,8 +1,8 @@
 import { FC } from 'react';
 import styles from './index.less';
-import Nav from '@/pages/Travel/components/Nav';
-import Banner from '@/pages/Travel/components/Banner';
-import Layer from '@/pages/Travel/components/Layer';
+import Nav from '@/pages/travel/components/Nav';
+import Banner from '@/pages/travel/components/Banner';
+import Layer from '@/pages/travel/components/Layer';
 
 const Travel: FC = () => {
   return (

@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: profile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Travel/components/Banner/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/travel/components/Banner/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Travel/components/Banner/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/travel/components/Banner/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Travel/components/Layer/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/travel/components/Layer/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Travel/components/Layer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/travel/components/Layer/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Travel/components/Nav/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/travel/components/Nav/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Travel/components/Nav/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/travel/components/Nav/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Travel/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/travel/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Travel/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/travel/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +28,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.less" root0="FORCE_HIGHLIGHTING" />
@@ -128,7 +145,10 @@
       <workItem from="1643725572482" duration="802000" />
       <workItem from="1643726811317" duration="267000" />
       <workItem from="1643801391037" duration="461000" />
-      <workItem from="1643802060668" duration="286000" />
+      <workItem from="1643802060668" duration="342000" />
+      <workItem from="1644499351793" duration="510000" />
+      <workItem from="1644502318384" duration="102000" />
+      <workItem from="1644504524850" duration="774000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
@@ -291,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643453329718</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="feat: profile">
+      <created>1643988766212</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1643988766213</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
