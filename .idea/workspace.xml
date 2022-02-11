@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: change routes">
-      <change afterPath="$PROJECT_DIR$/public/assets/best-services-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/best-services-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/best-services-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/best-services-04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/geek.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/ita.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/ring.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/rome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/sharding.png" afterDir="false" />
+    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: add services parts and dest parts">
+      <change afterPath="$PROJECT_DIR$/src/layouts/copycat.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/agency/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/agency/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/travel/components/Layer/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/travel/components/Layer/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/travel/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/travel/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/travel/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/travel/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -151,7 +143,7 @@
       <workItem from="1643802060668" duration="342000" />
       <workItem from="1644499351793" duration="510000" />
       <workItem from="1644502318384" duration="102000" />
-      <workItem from="1644504524850" duration="5966000" />
+      <workItem from="1644504524850" duration="7039000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
@@ -328,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644506696096</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: add services parts and dest parts">
+      <created>1644588303440</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1644588303440</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +361,8 @@
     <MESSAGE value="feat: add hot icon for tiangong-doc" />
     <MESSAGE value="feat: profile" />
     <MESSAGE value="feat: change routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: change routes" />
+    <MESSAGE value="feat: add services parts and dest parts" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add services parts and dest parts" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
