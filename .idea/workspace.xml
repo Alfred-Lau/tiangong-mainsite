@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: add services parts and dest parts">
-      <change afterPath="$PROJECT_DIR$/src/layouts/copycat.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/agency/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/agency/index.tsx" afterDir="false" />
+    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="feat: adjust routes for copycat">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ReflectCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReflectCard/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +141,7 @@
       <workItem from="1643802060668" duration="342000" />
       <workItem from="1644499351793" duration="510000" />
       <workItem from="1644502318384" duration="102000" />
-      <workItem from="1644504524850" duration="7039000" />
+      <workItem from="1644504524850" duration="10558000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
@@ -327,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644588303440</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="feat: adjust routes for copycat">
+      <created>1644589594327</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1644589594327</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +367,8 @@
     <MESSAGE value="feat: profile" />
     <MESSAGE value="feat: change routes" />
     <MESSAGE value="feat: add services parts and dest parts" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add services parts and dest parts" />
+    <MESSAGE value="feat: adjust routes for copycat" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adjust routes for copycat" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

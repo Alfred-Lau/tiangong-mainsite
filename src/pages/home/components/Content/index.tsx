@@ -263,6 +263,100 @@ function BlogComponent() {
   );
 }
 
+function TianGongComponent() {
+  const tiangongdevs = [
+    {
+      id: 1,
+      title: '工具库',
+      desc: '',
+      tags: [],
+      link: 'https://github.com/Alfred-Lau/tiangong-lib',
+      cover: '',
+    },
+    {
+      id: 2,
+      title: '脚手架',
+      desc: '',
+      tags: [],
+      link: 'https://github.com/Alfred-Lau/tiangong-cli',
+      cover: '',
+    },
+    {
+      id: 3,
+      title: '搭建平台',
+      desc: '',
+      tags: [],
+      link: 'https://github.com/Alfred-Lau/tiangong-build-platform',
+      cover: '',
+    },
+    {
+      id: 4,
+      title: '采集二方SDK',
+      desc: '',
+      tags: [],
+      link: 'https://github.com/Alfred-Lau/tiangong-tracert',
+      cover: '',
+    },
+    {
+      id: 5,
+      title: '解决方案全栈框架',
+      desc: '',
+      tags: [],
+      link: 'https://github.com/Alfred-Lau/tiangong-guanwnag-fullstack',
+      cover: '',
+    },
+    {
+      id: 6,
+      title: '组件库',
+      desc: '',
+      tags: [],
+      link: 'https://github.com/Alfred-Lau/tiangong-component-react',
+      cover: '',
+    },
+    {
+      id: 7,
+      title: 'OpenAPI',
+      desc: '',
+      tags: [],
+      link: 'https://github.com/Alfred-Lau/tiangong-server-ts',
+      cover: '',
+    },
+    {
+      id: 8,
+      title: '服务端',
+      desc: '',
+      tags: [],
+      link: 'https://github.com/Alfred-Lau/tiangong-server',
+      cover: '',
+    },
+    {
+      id: 9,
+      title: '请求库',
+      desc: '',
+      tags: [],
+      link: 'https://github.com/Alfred-Lau/tiangong-request',
+      cover: '',
+    },
+  ];
+  return (
+    <div className={styles.engineeredtool}>
+      {tiangongdevs.map((card) => {
+        return (
+          <ReflectCard
+            title={card.title}
+            desc={card.desc}
+            tags={card.tags}
+            link={card.link}
+            cover={card.cover}
+            key={card.id}
+            style={{ height: '400px' }}
+          />
+        );
+      })}
+    </div>
+  );
+}
+
 const CONTENT_ARRAY = [
   {
     sort: 1,
@@ -273,27 +367,34 @@ const CONTENT_ARRAY = [
   },
   {
     sort: 2,
+    title: 'TianGong',
+    subtitle: 'ENGINEERED SOLUTION',
+    component: TianGongComponent,
+    anchor: 'tiangong',
+  },
+  {
+    sort: 3,
     title: 'PIECEWORK',
     subtitle: 'SPARE TIME PROJECT',
     component: PieceWorkComponent,
     anchor: 'projects',
   },
   {
-    sort: 3,
+    sort: 4,
     title: 'TOOL',
     subtitle: 'ENGINEERED TOOL',
     component: EngineeredToolComponent,
     anchor: 'tools',
   },
   {
-    sort: 4,
+    sort: 5,
     title: 'EXPERIENCE',
     subtitle: 'MY EXPERIENCE',
     component: ExperienceComponent,
     anchor: 'experience',
   },
   {
-    sort: 5,
+    sort: 6,
     title: 'BLOG',
     subtitle: 'LATEST BLOG',
     component: BlogComponent,

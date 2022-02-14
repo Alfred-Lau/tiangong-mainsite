@@ -1,4 +1,5 @@
 import styles from './index.less';
+import React from 'react';
 
 export interface ReflectCardProps {
   title: string;
@@ -6,12 +7,16 @@ export interface ReflectCardProps {
   link: string;
   tags: string[];
   cover: string;
+  style?: React.CSSProperties;
 }
 
 const ReflectCard: React.FC<ReflectCardProps> = (props: ReflectCardProps) => {
-  const { title, desc, link, tags = [], cover } = props;
+  const { title, desc, link, tags = [], cover, ...restProps } = props;
+  const goto = () => {
+    window.open(link);
+  };
   return (
-    <div className={styles.flip_card_container}>
+    <div className={styles.flip_card_container} {...restProps} onClick={goto}>
       <div className={styles.center}>
         <div className={styles.cover}>
           <img src={cover} alt="cover" className={styles.coverImg} />
