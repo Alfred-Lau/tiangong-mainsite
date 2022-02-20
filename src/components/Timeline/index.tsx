@@ -21,7 +21,10 @@ function TimeLineItem(props: TimelineItem) {
           <div className={styles.title}>{title}</div>
           <div className={styles.duration}>{duration}</div>
         </div>
-        <div className={styles.content}>{content}</div>
+        <div
+          className={styles.content}
+          dangerouslySetInnerHTML={{ __html: content }}
+        />
       </div>
     </div>
   );

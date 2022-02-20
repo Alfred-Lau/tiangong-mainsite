@@ -204,20 +204,21 @@ function ExperienceComponent() {
       id: 1,
       title: '中科大',
       duration: '2014-09 至 2017-09',
-      content: '自强不息，止于至善',
+      content: '红专并进，理实交融',
       tag: '',
     },
     {
       id: 2,
       title: '政采云有限公司',
       duration: '2018-02 至 2020-07',
-      content: `业务上从事支付和项目采购，商品协议相关开发工作
-      技术建设进行影响力建设和工程化相关的产出，主要包括:
-      前端对外小报全链路【包括前后端，运维部署，React SSR，定时任务，命令行数据提取工具等】
-      移动端脚手架【落地于移动端开发】
-      命令行脚手架【落地于小组内使用】
-      以及基于其上的 GUI 工具【后续交由他人维护】`,
-      tag: '',
+      content: `
+      - 业务上从事支付和项目采购，商品协议相关开发工作
+      - 技术建设进行影响力建设和工程化相关的产出，主要包括:
+        - 前端对外小报全链路【包括前后端，运维部署，React SSR，定时任务，命令行数据提取工具等】
+        - 移动端脚手架【落地于移动端开发】
+        - 命令行脚手架【落地于小组内使用】
+        - 以及基于其上的 GUI 工具【后续交由他人维护】`,
+      tag: '工作',
     },
     {
       id: 3,
@@ -268,75 +269,83 @@ function TianGongComponent() {
     {
       id: 1,
       title: '工具库',
-      desc: '',
-      tags: [],
+      desc: '天工体系工具库，支持框架和业务开发的常用工具函数，正则表达式，dom操作，ts 类型等',
+      tags: ['tool', 'single'],
       link: 'https://github.com/Alfred-Lau/tiangong-lib',
       cover:
-        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
-    },
-    {
-      id: 2,
-      title: '脚手架',
-      desc: '',
-      tags: [],
-      link: 'https://github.com/Alfred-Lau/tiangong-cli',
-      cover: '',
-    },
-    {
-      id: 3,
-      title: '搭建平台',
-      desc: '',
-      tags: [],
-      link: 'https://github.com/Alfred-Lau/tiangong-build-platform',
-      cover: '',
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.13.20.png',
     },
     {
       id: 4,
       title: '采集二方SDK',
       desc: '',
-      tags: [],
+      tags: ['monorepo', 'pnpm'],
       link: 'https://github.com/Alfred-Lau/tiangong-tracert',
-      cover: '',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86.png',
     },
     {
       id: 5,
       title: '解决方案全栈框架',
       desc: '',
-      tags: [],
+      tags: ['egg', 'umi', 'solution'],
       link: 'https://github.com/Alfred-Lau/tiangong-guanwnag-fullstack',
-      cover: '',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.14.56.png',
+    },
+    {
+      id: 2,
+      title: '脚手架',
+      desc: `概述 :作为天工体系贯穿始终的工具基座，采用插件式开发架构，CS 架构  ## 提供能力 ### 项目管理 ### git 管理能力 ### 本地 & 服务端构建发布能力 ### 其他 `,
+      tags: ['plugins', 'cs arch'],
+      link: 'https://github.com/Alfred-Lau/tiangong-cli',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/%E5%A4%A9%E5%B7%A5%E4%BD%93%E7%B3%BB%E5%85%A8%E5%9F%9F%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E5%9B%BE.png',
+    },
+    {
+      id: 3,
+      title: '搭建平台',
+      desc: '',
+      tags: ['vue', 'react preparing'],
+      link: 'https://github.com/Alfred-Lau/tiangong-build-platform',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/%E6%90%AD%E5%BB%BA%E5%B9%B3%E5%8F%B0.png',
     },
     {
       id: 6,
       title: '组件库',
       desc: '',
-      tags: [],
+      tags: ['basic', 'biz', 'css transform'],
       link: 'https://github.com/Alfred-Lau/tiangong-component-react',
-      cover: '',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.26.32.png',
     },
     {
       id: 7,
       title: 'OpenAPI',
-      desc: '',
-      tags: [],
+      desc: '提供官网全栈框架的各种能力的输出和集成',
+      tags: ['server', 'private', 'socket'],
       link: 'https://github.com/Alfred-Lau/tiangong-server-ts',
-      cover: '',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/placeholder.png',
     },
     {
       id: 8,
       title: '服务端',
       desc: '',
-      tags: [],
+      tags: ['api', 'database', 'cache'],
       link: 'https://github.com/Alfred-Lau/tiangong-server',
-      cover: '',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/placeholder.png',
     },
     {
       id: 9,
       title: '请求库',
       desc: '',
-      tags: [],
+      tags: ['typescript'],
       link: 'https://github.com/Alfred-Lau/tiangong-request',
-      cover: '',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/placeholder.png',
     },
   ];
   return (
@@ -381,26 +390,126 @@ const CONTENT_ARRAY = [
   },
   {
     sort: 4,
+    title: 'Design',
+    subtitle: 'Design Page',
+    component: DesignPage,
+    anchor: 'design',
+  },
+  {
+    sort: 5,
     title: 'TOOL',
     subtitle: 'ENGINEERED TOOL',
     component: EngineeredToolComponent,
     anchor: 'tools',
   },
   {
-    sort: 5,
+    sort: 6,
     title: 'EXPERIENCE',
     subtitle: 'MY EXPERIENCE',
     component: ExperienceComponent,
     anchor: 'experience',
   },
   {
-    sort: 6,
+    sort: 7,
     title: 'BLOG',
     subtitle: 'LATEST BLOG',
     component: BlogComponent,
     anchor: 'rethink',
   },
 ];
+
+function DesignPage() {
+  const designs = [
+    {
+      id: 1,
+      title: '旅行行业',
+      desc: '设计特点：；实现特点：；体系优化方向',
+      tags: ['tool', 'single'],
+      link: 'https://lazy-minus-your-intelligence.com/copycat/travel',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/travel.png',
+    },
+    {
+      id: 4,
+      title: '电商行业',
+      desc: '设计特点：；实现特点：；体系优化方向',
+      tags: ['monorepo', 'pnpm'],
+      link: 'https://github.com/Alfred-Lau/tiangong-tracert',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
+    },
+    {
+      id: 5,
+      title: '视频站点',
+      desc: '设计特点：；实现特点：；体系优化方向',
+      tags: ['egg', 'umi', 'solution'],
+      link: 'https://github.com/Alfred-Lau/tiangong-guanwnag-fullstack',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
+    },
+    {
+      id: 2,
+      title: '社交站点',
+      desc: `设计特点：；实现特点：；体系优化方向`,
+      tags: ['plugins', 'cs arch'],
+      link: 'https://github.com/Alfred-Lau/tiangong-cli',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
+    },
+    {
+      id: 3,
+      title: '新闻站点',
+      desc: '设计特点：；实现特点：；体系优化方向',
+      tags: ['vue', 'react preparing'],
+      link: 'https://github.com/Alfred-Lau/tiangong-build-platform',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
+    },
+    {
+      id: 6,
+      title: 'Dashboard',
+      desc: '设计特点：；实现特点：；体系优化方向',
+      tags: ['basic', 'biz', 'css transform'],
+      link: 'https://github.com/Alfred-Lau/tiangong-component-react',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
+    },
+    {
+      id: 7,
+      title: '数据应用',
+      desc: '设计特点：；实现特点：；体系优化方向',
+      tags: ['server', 'private', 'socket'],
+      link: 'https://github.com/Alfred-Lau/tiangong-server-ts',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
+    },
+    {
+      id: 8,
+      title: '响应式设计',
+      desc: '设计特点：；实现特点：；体系优化方向',
+      tags: ['api', 'database', 'cache'],
+      link: 'https://github.com/Alfred-Lau/tiangong-server',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
+    },
+  ];
+  return (
+    <div className={styles.architecture}>
+      {designs.map((card) => {
+        return (
+          <FlipCard
+            title={card.title}
+            desc={card.desc}
+            tags={card.tags}
+            link={card.link}
+            cover={card.cover}
+            key={card.id}
+          />
+        );
+      })}
+    </div>
+  );
+}
 
 function Content() {
   return (

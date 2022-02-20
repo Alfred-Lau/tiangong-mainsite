@@ -33,7 +33,6 @@ const ReflectCard: React.FC<ReflectCardProps> = (props: ReflectCardProps) => {
           </div>
         </div>
       </div>
-      <div className={styles.mask}>我是悬浮的效果</div>
     </div>
   );
 };
