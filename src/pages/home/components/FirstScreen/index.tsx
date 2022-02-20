@@ -10,7 +10,7 @@ import styles from './index.less';
 let index = 0;
 const MagicOcean = [
   '终于等到你，* *',
-  '欢迎访问天工工程化主站',
+  '欢迎访问烽火彼岸的主站',
   '楼主 烽火彼岸，专注前端工程化',
 ];
 const FirstScreen = () => {

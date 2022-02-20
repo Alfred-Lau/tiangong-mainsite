@@ -16,6 +16,7 @@ const FlipCard: React.FC<FlipCardProps> = (props: FlipCardProps) => {
   const { title, desc, link, tags = [], cover, long, website } = props;
   const openInGitHub = useCallback(() => window.open(link), [link]);
   const goToWebsite = useCallback(() => window.open(website), [website]);
+
   return (
     <div className={styles.flip_card_container}>
       <div className={styles.center}>
@@ -36,12 +37,16 @@ const FlipCard: React.FC<FlipCardProps> = (props: FlipCardProps) => {
           </div>
           <p className={styles.desc}>{desc}</p>
           <div className={styles.operations}>
-            <Button onClick={goToWebsite} type={'primary'}>
-              浏览项目
-            </Button>
-            <Button onClick={openInGitHub} type={'primary'}>
-              查看代码
-            </Button>
+            {website && (
+              <Button onClick={goToWebsite} type={'primary'}>
+                查看代码
+              </Button>
+            )}
+            {link && (
+              <Button onClick={openInGitHub} type={'primary'}>
+                浏览项目
+              </Button>
+            )}
           </div>
         </div>
       </div>

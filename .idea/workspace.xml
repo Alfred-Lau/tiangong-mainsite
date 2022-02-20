@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="fix: fix homepage typo">
+    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="style: flipcard style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FlipCard/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FlipCard/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.umirc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.umirc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Avatar/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Avatar/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Avatar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Avatar/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FlipCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FlipCard/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layer/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layer/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Content/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Content/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/FirstScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/FirstScreen/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/typings/api.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/typings/api.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,16 +40,16 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.less" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/.umirc.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/pages/rethink/index.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/components/List/index.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/utils/formatHtml.ts" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/pages/rethink/components/Banner/index.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tsconfig.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.umirc.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.less" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/List/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/rethink/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/utils/formatHtml.ts" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="373tbjr9" />
@@ -63,7 +71,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettier.import.notification.dismissed" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
@@ -147,7 +155,8 @@
       <workItem from="1645021093707" duration="459000" />
       <workItem from="1645198919673" duration="1302000" />
       <workItem from="1645261625054" duration="535000" />
-      <workItem from="1645263069216" duration="8329000" />
+      <workItem from="1645263069216" duration="8913000" />
+      <workItem from="1645360707850" duration="2683000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
@@ -359,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645341127472</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="style: flipcard style">
+      <created>1645350485914</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1645350485914</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +414,8 @@
     <MESSAGE value="feat: add tiangong sections" />
     <MESSAGE value="fix: fix login page goto functionality" />
     <MESSAGE value="fix: fix homepage typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: fix homepage typo" />
+    <MESSAGE value="style: flipcard style" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: flipcard style" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

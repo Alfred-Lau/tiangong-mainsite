@@ -23,9 +23,9 @@ const Avatar: React.FC<AvatarProps> = function Avatar(props) {
             }`}
           />
           {size === 'large' ? (
-            <h4 className={styles.largeTitle}>烽火彼岸的主站</h4>
+            <h4 className={styles.largeTitle}>烽火彼岸</h4>
           ) : (
-            <h4 className={styles.avatarTitle}>烽火彼岸的主站</h4>
+            <h4 className={styles.avatarTitle}>烽火彼岸</h4>
           )}
           <div className={styles.hello}>{children}</div>
         </>
@@ -40,9 +40,9 @@ const Avatar: React.FC<AvatarProps> = function Avatar(props) {
             }`}
           />
           {size === 'large' ? (
-            <h4 className={styles.largeTitle}>烽火彼岸的主站</h4>
+            <h4 className={styles.largeTitle}>烽火彼岸</h4>
           ) : (
-            <h4 className={styles.avatarTitle}>烽火彼岸的主站</h4>
+            <h4 className={styles.avatarTitle}>烽火彼岸</h4>
           )}
           <div className={styles.hello}>{children}</div>
         </>

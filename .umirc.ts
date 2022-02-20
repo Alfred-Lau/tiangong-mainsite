@@ -11,7 +11,7 @@ export default defineConfig({
   fastRefresh: {},
   favicon:
     'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/favicon.ico',
-  title: '天工工程体系主站',
+  title: '烽火彼岸的网络空间',
   proxy,
   headScripts: [
     `https://tiangong-tracert.oss-cn-beijing.aliyuncs.com/tiangong-sdk.umd.js`,
@@ -27,7 +27,7 @@ export default defineConfig({
   metas: [
     {
       name: 'keywords',
-      content: '工程化, 天工, 烽烟彼岸',
+      content: '工程化, 天工, 烽烟彼岸，网络空间，个人主站',
     },
     {
       name: 'description',

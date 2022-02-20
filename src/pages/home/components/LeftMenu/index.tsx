@@ -55,9 +55,7 @@ function LeftMenu() {
         </Anchor>
         <div className={styles.footer}>
           <div className={styles.share}></div>
-          <div className={styles.copytight}>
-            ©2020 - 现在 烽火彼岸 | Alfred-Lau All rights reserved
-          </div>
+          <div className={styles.copytight}>人生如逆旅，我亦是行人</div>
         </div>
       </div>
     );

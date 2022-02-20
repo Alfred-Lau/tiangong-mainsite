@@ -35,6 +35,7 @@ declare namespace MainSiteApi {
     tags: string[];
     link: string;
     cover: string;
+    website: string;
   }
   interface TagItem {
     title: string;

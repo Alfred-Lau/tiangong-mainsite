@@ -6,7 +6,6 @@ import Layer from '@/components/Layer';
 import FlipCard from '@/components/FlipCard';
 import ReflectCard from '@/components/ReflectCard';
 import TimeLine from '@/components/Timeline';
-// import type { Timeline } from '@/components/TimeLine';
 import List from '@/components/List';
 import useAsyncEffect from '@/hooks/useAsyncEffect';
 import { queryWorks } from '@/services/Works';
@@ -91,6 +90,7 @@ function PieceWorkComponent() {
             tags={card.tags}
             link={card.link}
             cover={card.cover}
+            website={card.website}
           />
         );
       })}
@@ -362,6 +362,7 @@ function TianGongComponent() {
             link={card.link}
             cover={card.cover}
             key={card.id}
+            website={card.website}
           />
         );
       })}
@@ -427,7 +428,7 @@ function DesignPage() {
       id: 1,
       title: '旅行行业',
       desc: '设计特点：；实现特点：；体系优化方向',
-      tags: ['tool', 'single'],
+      tags: ['layout', 'circle'],
       link: 'https://lazy-minus-your-intelligence.com/copycat/travel',
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/travel.png',
@@ -436,8 +437,8 @@ function DesignPage() {
       id: 4,
       title: '电商行业',
       desc: '设计特点：；实现特点：；体系优化方向',
-      tags: ['monorepo', 'pnpm'],
-      link: 'https://github.com/Alfred-Lau/tiangong-tracert',
+      tags: ['search', 'seo'],
+      link: null,
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
     },
@@ -445,8 +446,8 @@ function DesignPage() {
       id: 5,
       title: '视频站点',
       desc: '设计特点：；实现特点：；体系优化方向',
-      tags: ['egg', 'umi', 'solution'],
-      link: 'https://github.com/Alfred-Lau/tiangong-guanwnag-fullstack',
+      tags: ['live', 'share', 'popup'],
+      link: null,
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
     },
@@ -454,8 +455,8 @@ function DesignPage() {
       id: 2,
       title: '社交站点',
       desc: `设计特点：；实现特点：；体系优化方向`,
-      tags: ['plugins', 'cs arch'],
-      link: 'https://github.com/Alfred-Lau/tiangong-cli',
+      tags: ['socket', 'h5'],
+      link: null,
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
     },
@@ -463,8 +464,8 @@ function DesignPage() {
       id: 3,
       title: '新闻站点',
       desc: '设计特点：；实现特点：；体系优化方向',
-      tags: ['vue', 'react preparing'],
-      link: 'https://github.com/Alfred-Lau/tiangong-build-platform',
+      tags: ['cache'],
+      link: null,
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
     },
@@ -472,8 +473,8 @@ function DesignPage() {
       id: 6,
       title: 'Dashboard',
       desc: '设计特点：；实现特点：；体系优化方向',
-      tags: ['basic', 'biz', 'css transform'],
-      link: 'https://github.com/Alfred-Lau/tiangong-component-react',
+      tags: ['api', 'chart'],
+      link: null,
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
     },
@@ -481,8 +482,8 @@ function DesignPage() {
       id: 7,
       title: '数据应用',
       desc: '设计特点：；实现特点：；体系优化方向',
-      tags: ['server', 'private', 'socket'],
-      link: 'https://github.com/Alfred-Lau/tiangong-server-ts',
+      tags: ['dada', 'admin'],
+      link: null,
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
     },
@@ -490,8 +491,8 @@ function DesignPage() {
       id: 8,
       title: '响应式设计',
       desc: '设计特点：；实现特点：；体系优化方向',
-      tags: ['api', 'database', 'cache'],
-      link: 'https://github.com/Alfred-Lau/tiangong-server',
+      tags: ['h5', 'responsive'],
+      link: null,
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
     },
@@ -507,6 +508,7 @@ function DesignPage() {
             link={card.link}
             cover={card.cover}
             key={card.id}
+            website={card.website}
           />
         );
       })}
@@ -530,9 +532,16 @@ function Content() {
         );
       })}
 
-      <footer className={styles.contentFooter}>
-        ©2020 - 现在 烽火彼岸 | Alfred-Lau All rights reserved
-      </footer>
+      <MediaQuery minWidth={MIN_WIDTH}>
+        <footer className={styles.contentFooter}>
+          ©2020 - 现在 烽火彼岸 | Alfred-Lau All rights reserved
+        </footer>
+      </MediaQuery>
+      <MediaQuery maxWidth={MIN_WIDTH}>
+        <footer className={styles.contentFooter}>
+          ©2020 - 现在 烽火彼岸 <br /> Alfred-Lau All rights reserved
+        </footer>
+      </MediaQuery>
     </div>
   );
 }
