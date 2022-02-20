@@ -271,7 +271,8 @@ function TianGongComponent() {
       desc: '',
       tags: [],
       link: 'https://github.com/Alfred-Lau/tiangong-lib',
-      cover: '',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/xiaomimall.png',
     },
     {
       id: 2,
@@ -339,17 +340,16 @@ function TianGongComponent() {
     },
   ];
   return (
-    <div className={styles.engineeredtool}>
+    <div className={styles.architecture}>
       {tiangongdevs.map((card) => {
         return (
-          <ReflectCard
+          <FlipCard
             title={card.title}
             desc={card.desc}
             tags={card.tags}
             link={card.link}
             cover={card.cover}
             key={card.id}
-            style={{ height: '400px' }}
           />
         );
       })}

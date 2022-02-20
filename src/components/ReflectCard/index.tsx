@@ -1,5 +1,5 @@
+import React, { useCallback } from 'react';
 import styles from './index.less';
-import React from 'react';
 
 export interface ReflectCardProps {
   title: string;
@@ -12,9 +12,11 @@ export interface ReflectCardProps {
 
 const ReflectCard: React.FC<ReflectCardProps> = (props: ReflectCardProps) => {
   const { title, desc, link, tags = [], cover, ...restProps } = props;
-  const goto = () => {
+
+  const goto = useCallback(() => {
     window.open(link);
-  };
+  }, [link]);
+
   return (
     <div className={styles.flip_card_container} {...restProps} onClick={goto}>
       <div className={styles.center}>
@@ -31,6 +33,7 @@ const ReflectCard: React.FC<ReflectCardProps> = (props: ReflectCardProps) => {
           </div>
         </div>
       </div>
+      <div className={styles.mask}>我是悬浮的效果</div>
     </div>
   );
 };

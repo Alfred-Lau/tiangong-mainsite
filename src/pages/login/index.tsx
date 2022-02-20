@@ -28,7 +28,9 @@ const Login: React.FC<MatchParams> = (props) => {
         }
       })
       .then(() => {
-        if (goto) {
+        if (goto.startWith('http')) {
+          window.location.href = goto;
+        } else {
           history.push(goto);
         }
       });
