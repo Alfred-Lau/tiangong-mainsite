@@ -299,6 +299,7 @@ function TianGongComponent() {
       desc: `概述 :作为天工体系贯穿始终的工具基座，采用插件式开发架构，CS 架构  ## 提供能力 ### 项目管理 ### git 管理能力 ### 本地 & 服务端构建发布能力 ### 其他 `,
       tags: ['plugins', 'cs arch'],
       link: 'https://github.com/Alfred-Lau/tiangong-cli',
+      website: 'http://docs.lazy-minus-your-intelligence.com/',
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/%E5%A4%A9%E5%B7%A5%E4%BD%93%E7%B3%BB%E5%85%A8%E5%9F%9F%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E5%9B%BE.png',
     },
@@ -310,6 +311,7 @@ function TianGongComponent() {
       link: 'https://github.com/Alfred-Lau/tiangong-build-platform',
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/%E6%90%AD%E5%BB%BA%E5%B9%B3%E5%8F%B0.png',
+      website: 'http://build.lazy-minus-your-intelligence.com/',
     },
     {
       id: 6,
@@ -319,6 +321,7 @@ function TianGongComponent() {
       link: 'https://github.com/Alfred-Lau/tiangong-component-react',
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.26.32.png',
+      website: 'http://react.lazy-minus-your-intelligence.com/',
     },
     {
       id: 7,

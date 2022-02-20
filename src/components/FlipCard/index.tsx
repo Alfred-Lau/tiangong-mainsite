@@ -1,3 +1,5 @@
+import React, { useCallback } from 'react';
+import { Button } from 'antd';
 import styles from './index.less';
 
 export interface FlipCardProps {
@@ -7,11 +9,13 @@ export interface FlipCardProps {
   tags: string[];
   cover: string;
   long?: string;
+  website?: string;
 }
 
 const FlipCard: React.FC<FlipCardProps> = (props: FlipCardProps) => {
-  const { title, desc, link, tags = [], cover, long } = props;
-  const goTo = (link: string) => window.open(link);
+  const { title, desc, link, tags = [], cover, long, website } = props;
+  const openInGitHub = useCallback(() => window.open(link), [link]);
+  const goToWebsite = useCallback(() => window.open(website), [website]);
   return (
     <div className={styles.flip_card_container}>
       <div className={styles.center}>
@@ -19,7 +23,7 @@ const FlipCard: React.FC<FlipCardProps> = (props: FlipCardProps) => {
           <img src={cover} alt="cover" className={styles.coverImg} />
         </div>
 
-        <div className={styles.mask} onClick={() => goTo(link)}>
+        <div className={styles.mask}>
           <span className={styles.title}>{title}</span>
           <div className={styles.tags}>
             {tags.map((tag) => {
@@ -31,6 +35,14 @@ const FlipCard: React.FC<FlipCardProps> = (props: FlipCardProps) => {
             })}
           </div>
           <p className={styles.desc}>{desc}</p>
+          <div className={styles.operations}>
+            <Button onClick={goToWebsite} type={'primary'}>
+              浏览项目
+            </Button>
+            <Button onClick={openInGitHub} type={'primary'}>
+              查看代码
+            </Button>
+          </div>
         </div>
       </div>
     </div>
