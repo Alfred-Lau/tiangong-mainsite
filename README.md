@@ -22,3 +22,6 @@
 
 - ts-npm-starter
 - ts-web-starter
+
+
+主站集成一下 video 播放！
