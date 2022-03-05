@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="style: typo change and style fix">
-      <change afterPath="$PROJECT_DIR$/src/components/Share/index.tsx" afterDir="false" />
+    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="style: share component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useAsyncEffect.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useAsyncEffect.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +152,10 @@
       <workItem from="1645450883285" duration="49000" />
       <workItem from="1645451087331" duration="1197000" />
       <workItem from="1645771209533" duration="494000" />
+      <workItem from="1645974842454" duration="131000" />
+      <workItem from="1646063606504" duration="5384000" />
+      <workItem from="1646232736828" duration="58000" />
+      <workItem from="1646400608275" duration="3303000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
@@ -376,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645363467656</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="style: share component">
+      <created>1645974965829</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1645974965829</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +429,8 @@
     <MESSAGE value="fix: fix homepage typo" />
     <MESSAGE value="style: flipcard style" />
     <MESSAGE value="style: typo change and style fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: typo change and style fix" />
+    <MESSAGE value="style: share component" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: share component" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
