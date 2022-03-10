@@ -447,7 +447,7 @@ function DesignPage() {
       title: '电商行业',
       desc: '设计特点：；实现特点：；体系优化方向',
       tags: ['search', 'seo'],
-      link: null,
+      link: 'https://lazy-minus-your-intelligence.com/copycat/ecommerce',
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
     },
@@ -456,7 +456,7 @@ function DesignPage() {
       title: '视频站点',
       desc: '设计特点：；实现特点：；体系优化方向',
       tags: ['live', 'share', 'popup'],
-      link: null,
+      link: 'https://lazy-minus-your-intelligence.com/copycat/video',
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
     },
@@ -465,7 +465,7 @@ function DesignPage() {
       title: '社交站点',
       desc: `设计特点：；实现特点：；体系优化方向`,
       tags: ['socket', 'h5'],
-      link: null,
+      link: 'https://lazy-minus-your-intelligence.com/copycat/social',
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
     },
@@ -474,7 +474,7 @@ function DesignPage() {
       title: '新闻站点',
       desc: '设计特点：；实现特点：；体系优化方向',
       tags: ['cache'],
-      link: null,
+      link: 'https://lazy-minus-your-intelligence.com/copycat/news',
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
     },
@@ -483,7 +483,7 @@ function DesignPage() {
       title: 'Dashboard',
       desc: '设计特点：；实现特点：；体系优化方向',
       tags: ['api', 'chart'],
-      link: null,
+      link: 'https://lazy-minus-your-intelligence.com/copycat/dashboard',
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
     },
@@ -492,7 +492,7 @@ function DesignPage() {
       title: '数据应用',
       desc: '设计特点：；实现特点：；体系优化方向',
       tags: ['dada', 'admin'],
-      link: null,
+      link: 'https://lazy-minus-your-intelligence.com/copycat/bigchart',
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
     },

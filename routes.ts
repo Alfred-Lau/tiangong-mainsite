@@ -34,6 +34,30 @@ const routes = [
         path: 'responsive',
         component: 'responsive',
       },
+      {
+        path: 'bigchart',
+        component: 'bigchart',
+      },
+      {
+        path: 'news',
+        component: 'news',
+      },
+      {
+        path: 'video',
+        component: 'video',
+      },
+      {
+        path: 'dashboard',
+        component: 'dashboard',
+      },
+      {
+        path: 'social',
+        component: 'social',
+      },
+      {
+        path: 'ecommerce',
+        component: 'ecommerce',
+      },
     ],
   },
   {
