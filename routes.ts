@@ -30,6 +30,10 @@ const routes = [
         path: 'agency',
         component: 'agency',
       },
+      {
+        path: 'responsive',
+        component: 'responsive',
+      },
     ],
   },
   {

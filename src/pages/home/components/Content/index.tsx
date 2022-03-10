@@ -425,6 +425,15 @@ const CONTENT_ARRAY = [
 function DesignPage() {
   const designs = [
     {
+      id: 0,
+      title: '响应式设计',
+      desc: '设计特点：；实现特点：；体系优化方向',
+      tags: ['h5', 'responsive'],
+      link: 'https://lazy-minus-your-intelligence.com/copycat/responsive',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/iShot2022-03-11%2000.13.58.png',
+    },
+    {
       id: 1,
       title: '旅行行业',
       desc: '设计特点：；实现特点：；体系优化方向',
@@ -483,15 +492,6 @@ function DesignPage() {
       title: '数据应用',
       desc: '设计特点：；实现特点：；体系优化方向',
       tags: ['dada', 'admin'],
-      link: null,
-      cover:
-        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',
-    },
-    {
-      id: 8,
-      title: '响应式设计',
-      desc: '设计特点：；实现特点：；体系优化方向',
-      tags: ['h5', 'responsive'],
       link: null,
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/articles_assets/iShot2022-02-20%2014.54.20.png',

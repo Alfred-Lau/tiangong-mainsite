@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="style: share component">
+    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="style: add nprogress">
+      <change afterPath="$PROJECT_DIR$/src/pages/responsive/components/banner/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/responsive/components/banner/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/responsive/components/header/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/responsive/components/header/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/responsive/h5.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/responsive/h5.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/responsive/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/responsive/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useAsyncEffect.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useAsyncEffect.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="Less File" />
       </list>
     </option>
   </component>
@@ -64,6 +72,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettier.import.notification.dismissed" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
@@ -155,7 +164,8 @@
       <workItem from="1645974842454" duration="131000" />
       <workItem from="1646063606504" duration="5384000" />
       <workItem from="1646232736828" duration="58000" />
-      <workItem from="1646400608275" duration="3303000" />
+      <workItem from="1646400608275" duration="4869000" />
+      <workItem from="1646918743544" duration="3964000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
@@ -388,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645974965829</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="style: add nprogress">
+      <created>1646492199061</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1646492199061</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +447,8 @@
     <MESSAGE value="style: flipcard style" />
     <MESSAGE value="style: typo change and style fix" />
     <MESSAGE value="style: share component" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: share component" />
+    <MESSAGE value="style: add nprogress" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: add nprogress" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
