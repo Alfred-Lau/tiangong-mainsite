@@ -81,7 +81,7 @@ function PieceWorkComponent() {
 
   return (
     <div className={styles.piecework}>
-      {works.map((card) => {
+      {works?.map((card) => {
         return (
           <FlipCard
             key={card.id}
@@ -231,7 +231,7 @@ function ExperienceComponent() {
       id: 4,
       title: '蚂蚁集团 - OceanBase',
       duration: '2020-11 至今',
-      content: '负责大官网团队 & 服务交付',
+      content: '负责大官网 & 开源前端团队开发',
       tag: '',
     },
   ];
@@ -432,6 +432,15 @@ function DesignPage() {
       link: 'https://lazy-minus-your-intelligence.com/copycat/responsive',
       cover:
         'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/iShot2022-03-11%2000.13.58.png',
+    },
+    {
+      id: 8,
+      title: '旅行平台站点',
+      desc: '设计特点：；实现特点：；体系优化方向',
+      tags: ['react 17', 'router 6.x', 'redux-toolkit'],
+      link: 'http://vocation.lazy-minus-your-intelligence.com/',
+      cover:
+        'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/mainsite_assets/vocation.jpg',
     },
     {
       id: 1,

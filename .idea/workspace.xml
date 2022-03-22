@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="style: add nprogress">
+    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="style: fixed layer header">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layer/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layer/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Content/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Content/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/LeftMenu/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +162,8 @@
       <workItem from="1647354593880" duration="294000" />
       <workItem from="1647437843691" duration="71000" />
       <workItem from="1647438822345" duration="2031000" />
-      <workItem from="1647620772985" duration="2267000" />
+      <workItem from="1647620772985" duration="3578000" />
+      <workItem from="1647957861942" duration="522000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
@@ -405,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646492199061</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="style: fixed layer header">
+      <created>1647671712106</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1647671712106</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +453,8 @@
     <MESSAGE value="style: typo change and style fix" />
     <MESSAGE value="style: share component" />
     <MESSAGE value="style: add nprogress" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: add nprogress" />
+    <MESSAGE value="style: fixed layer header" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: fixed layer header" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
