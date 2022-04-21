@@ -18,7 +18,19 @@
               console.log('SW registration failed: ', registrationError);
             });
         });
+
+        navigator.serviceWorker.getRegistrations()
+          .then(function(registrations) {
+            for(let registration of registrations) {
+              //安装在网页的service worker不止一个，找到我们的那个并删除
+              if(registration && registration.scope === 'https://seed.futunn.com/'){
+                registration.unregister();
+              }
+            }
+          });
       }
+
+
     </script>
   </body>
 </html>

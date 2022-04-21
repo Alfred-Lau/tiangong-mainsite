@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="style: add dark theme file">
-      <change afterPath="$PROJECT_DIR$/src/pages/document.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="style: add workbox sw generatSW">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.umirc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.umirc.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/document.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/document.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +163,7 @@
       <workItem from="1648136153867" duration="1000000" />
       <workItem from="1649434146247" duration="514000" />
       <workItem from="1649491900336" duration="486000" />
-      <workItem from="1650466883701" duration="1299000" />
+      <workItem from="1650466883701" duration="1918000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
@@ -421,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648049364002</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="style: add workbox sw generatSW">
+      <created>1650558154011</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1650558154011</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +443,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat: 主站移动端详情页样式修复" />
     <MESSAGE value="feat: 汉堡版导航骨架添加" />
     <MESSAGE value="feat: jadoo 仿站添加 banner" />
     <MESSAGE value="feat: jadoo 仿站添加 layer" />
@@ -465,7 +467,8 @@
     <MESSAGE value="style: add nprogress" />
     <MESSAGE value="style: fixed layer header" />
     <MESSAGE value="style: add dark theme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: add dark theme file" />
+    <MESSAGE value="style: add workbox sw generatSW" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: add workbox sw generatSW" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
