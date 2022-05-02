@@ -43,6 +43,8 @@ function Item({ item }: { item: Partial<MainSiteApi.BlogItem> }) {
 function List(props: ListProps) {
   const { data = [], showMore, handleLoadMore } = props;
 
+  console.log('showmore', showMore);
+
   return (
     <div className={styles.list}>
       {data.map((item, index) => {
@@ -50,7 +52,6 @@ function List(props: ListProps) {
       })}
       {showMore && (
         <div className={styles.more} onClick={handleLoadMore}>
-          {' '}
           更多
         </div>
       )}

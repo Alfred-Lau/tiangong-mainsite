@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="style: add workbox sw generatSW">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/document.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/document.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,16 +58,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "/Users/liujian/Codezone/p7/tiangong-archtec/tiangong-mainsite/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/Users/liujian/Codezone/p7/tiangong-archtec/tiangong-mainsite/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/liujian/Codezone/p7/tiangong-archtec/tiangong-mainsite/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/liujian/Codezone/p7/tiangong-archtec/tiangong-mainsite/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
   </component>
@@ -163,7 +165,10 @@
       <workItem from="1648136153867" duration="1000000" />
       <workItem from="1649434146247" duration="514000" />
       <workItem from="1649491900336" duration="486000" />
-      <workItem from="1650466883701" duration="1918000" />
+      <workItem from="1650466883701" duration="2307000" />
+      <workItem from="1651231462398" duration="209000" />
+      <workItem from="1651235427104" duration="216000" />
+      <workItem from="1651499901599" duration="1052000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
@@ -424,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650558154011</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="style: add workbox sw generatSW">
+      <created>1650558846450</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1650558846450</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

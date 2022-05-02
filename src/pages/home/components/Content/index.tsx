@@ -253,9 +253,11 @@ function BlogComponent() {
   }, []);
 
   const loadMore = async () => {
-    const more = await queryBlogs({ pageNo: pageNo + 1, pageSize });
-    setPageNo(pageNo + 1);
-    setBlogs(blogs.concat(more));
+    // const more = await queryBlogs({ pageNo: pageNo + 1, pageSize });
+    // setPageNo(pageNo + 1);
+    // setBlogs(blogs.concat(more));
+
+    window.open('https://blog.lazy-minus-your-intelligence.com/');
   };
   return (
     <div>
