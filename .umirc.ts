@@ -17,12 +17,38 @@ export default defineConfig({
   headScripts: [
     `https://tiangong-tracert.oss-cn-beijing.aliyuncs.com/tiangong-sdk.umd.js`,
   ],
+
+  /*
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122849311-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122849311-1');
+</script>
+
+
+  */
   scripts: [
     `
     document.write(unescape("%3Cscript src='https://s9.cnzz.com/z_stat.php?id=1280463003&web_id=1280463003' type='text/javascript'%3E%3C/script%3E"));
     `,
     `
     document.body.removeChild(document.querySelector('a[title="站长统计"]'))
+    `,
+    {
+      src: 'https://www.googletagmanager.com/gtag/js?id=UA-122849311-1',
+      async: true,
+    },
+    `
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-122849311-1');
     `,
   ],
   metas: [

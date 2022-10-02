@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9ac27f54-b2bb-4eff-9a7e-f813ae987675" name="Changes" comment="style: add workbox sw generatSW">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/List/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/List/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Content/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +165,9 @@
       <workItem from="1650466883701" duration="2307000" />
       <workItem from="1651231462398" duration="209000" />
       <workItem from="1651235427104" duration="216000" />
-      <workItem from="1651499901599" duration="1052000" />
+      <workItem from="1651499901599" duration="1765000" />
+      <workItem from="1651762002164" duration="219000" />
+      <workItem from="1651939650753" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 主站的文章详情页完成改造 参考banner加两栏布局的方式；">
       <created>1640188499799</created>
