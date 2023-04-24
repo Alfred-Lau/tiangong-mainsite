@@ -24,7 +24,7 @@ function AboutMeComponent() {
       <div className={styles.right}>
         <div className={styles.slogan}>ABOUT ME</div>
         <div className={styles.short}>
-          本人网名烽火彼岸，生于塞上，游学于迤逦之乡，定居于人间天堂
+          烽火彼岸，生于塞上，游学于迤逦之乡，定居于人间天堂
         </div>
         <div className={styles.long}>
           『自强不息，止于至善』『红专并进，理实交融』这些朴实凝萃的校训流淌我身，四年本科生涯、三年研究生涯，良师益友收获颇多~

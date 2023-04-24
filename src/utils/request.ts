@@ -1,8 +1,12 @@
 import { request, RequestConfig } from 'umi';
 import jscookie from 'js-cookie';
 
-const DOMAIN = process.env.NODE_ENV === 'prod' ? '' : '';
+export const DOMAIN =
+  process.env.NODE_ENV === 'production'
+    ? 'https://lazy-minus-your-intelligence.com'
+    : 'http://localhost:3000';
 
+// const OPEN_API_DOMAIN = 'https://lazy-minus-your-intelligence.com';
 const OPEN_API_DOMAIN =
   process.env.NODE_ENV !== 'development' ? '' : 'http://localhost:7001';
 
