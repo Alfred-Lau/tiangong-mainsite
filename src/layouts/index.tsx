@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import MediaQuery from 'react-responsive';
-import { Footer } from '@tiangongkit/react-component';
+import Footer from '@/components/Footer';
 import styles from './index.less';
 import { MIN_WIDTH } from '@/constants/varibles';
 import { BreadcrumbNavigation } from '@/components/BreadcrumbNavigation';
@@ -49,7 +49,6 @@ const IndexLayout: React.FC = (props) => {
       <MediaQuery maxWidth={MIN_WIDTH - 1}>
         <BreadcrumbNavigation />
       </MediaQuery>
-
       {props.children}
       <Footer />
     </div>
