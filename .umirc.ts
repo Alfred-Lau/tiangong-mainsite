@@ -16,6 +16,7 @@ export default defineConfig({
   proxy,
   headScripts: [
     `https://tiangong-tracert.oss-cn-beijing.aliyuncs.com/tiangong-sdk.umd.js`,
+    'https://www.googleoptimize.com/optimize.js?id=OPT-NDQTHH7'
   ],
 
   /*
